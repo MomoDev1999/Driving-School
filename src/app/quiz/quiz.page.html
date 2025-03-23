@@ -1,0 +1,37 @@
+<ion-content class="quiz-page ion-padding">
+  <div class="question-box" *ngIf="questions.length">
+    <div class="progress-container">
+      <div
+        class="progress"
+        [style.width.%]="((current + 1) / questions.length) * 100"
+      ></div>
+    </div>
+
+    <h2 class="question-text">
+      {{ current + 1 }}. {{ questions[current].statement }}
+    </h2>
+
+    <img
+      *ngIf="questions[current].image_url"
+      [src]="questions[current].image_url"
+      alt="Imagen de la pregunta"
+      class="question-img"
+    />
+
+    <div class="options">
+      <div
+        *ngFor="let opt of options; index as i"
+        class="option"
+        [ngClass]="{
+          'correct': answered && opt === questions[current].correct,
+          'incorrect': answered && opt === selectedOption && opt !== questions[current].correct
+        }"
+        (click)="selectAnswer(opt)"
+      >
+        <span class="letter">{{ getLetter(i) }}</span> {{ opt }}
+      </div>
+    </div>
+
+    <div class="signature">MomoDev 🐌✨</div>
+  </div>
+</ion-content>

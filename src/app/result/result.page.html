@@ -1,0 +1,26 @@
+<ion-content class="result-page ion-padding">
+  <div class="result-wrapper">
+    <div class="result-summary">
+      <h2>Resultado Final</h2>
+      <div class="score"><span>{{ correct }}</span> / {{ answers.length }}</div>
+      <div class="percentage">{{ percentage }}%</div>
+    </div>
+
+    <ion-button expand="block" class="home-btn" (click)="goHome()"
+      >Volver al inicio</ion-button
+    >
+
+    <div class="incorrect-container" *ngIf="incorrectAnswers.length > 0">
+      <h3 class="section-title">Respuestas Incorrectas</h3>
+      <div class="error-card" *ngFor="let a of incorrectAnswers">
+        <p class="question">{{ a.question.statement }}</p>
+        <p class="your-answer">Tu respuesta: <span>{{ a.selected }}</span></p>
+        <p class="correct-answer">
+          Correcta: <span>{{ a.question.correct }}</span>
+        </p>
+      </div>
+    </div>
+
+    <div class="signature">MomoDev 🐌✨</div>
+  </div>
+</ion-content>

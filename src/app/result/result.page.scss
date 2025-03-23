@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+.result-page {
+  --background: #f7f7f7;
+  font-family: 'Poppins', sans-serif;
+
+  .result-summary {
+    background: #fff;
+    padding: 25px;
+    border-radius: 16px;
+    text-align: center;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    animation: fadeIn 0.5s ease-in-out;
+
+    h2 {
+      font-size: 22px;
+      margin-bottom: 10px;
+      color: #2a2b2e;
+    }
+
+    .score {
+      font-size: 28px;
+      font-weight: 600;
+      color: #ff6b6b;
+    }
+
+    .percentage {
+      font-size: 20px;
+      font-weight: 500;
+      margin-top: 10px;
+      color: #555;
+    }
+  }
+
+  .section-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 20px 0 10px;
+    color: #2a2b2e;
+  }
+
+  .incorrect-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .error-card {
+    background: #fff;
+    padding: 18px;
+    border-radius: 14px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+
+    .question {
+      font-weight: 600;
+      margin-bottom: 8px;
+      color: #2a2b2e;
+    }
+
+    .your-answer,
+    .correct-answer {
+      font-size: 14px;
+      margin-bottom: 4px;
+
+      span {
+        font-weight: 500;
+        color: #ff6b6b;
+      }
+    }
+  }
+
+  .home-btn {
+    margin-top: 30px;
+    --background: #ff6b6b;
+    --color: #fff;
+    font-weight: bold;
+    border-radius: 12px;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .result-page {
+    --background: #1e1f21;
+
+    .result-summary,
+    .error-card {
+      background: #2a2b2e;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    }
+
+    .result-summary h2,
+    .section-title,
+    .error-card .question {
+      color: #f1f1f1;
+    }
+
+    .percentage {
+      color: #cccccc;
+    }
+
+    .your-answer,
+    .correct-answer {
+      color: #bbbbbb;
+
+      span {
+        color: #ff8787;
+      }
+    }
+  }
+}

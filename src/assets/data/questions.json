@@ -1,0 +1,452 @@
+[
+  {
+    "id": 1,
+    "statement": "En una intersección sin semáforo, ¿qué debe hacer un conductor al aproximarse si ya hay vehículos cruzando por la derecha?",
+    "image_url": "https://www.todotest.com/tests/imgs/0385.jpg",
+    "wrong_one": "Acelerar para pasar antes que ellos",
+    "wrong_two": "Tocar la bocina para advertirlos",
+    "wrong_three": "Ignorar la situación y continuar a velocidad normal",
+    "correct": "Detenerse y ceder el paso, respetando la prioridad de la derecha"
+  },
+  {
+    "id": 2,
+    "statement": "Según la normativa chilena, ¿cuál es el límite máximo de velocidad en zonas urbanas, salvo señalización contraria?",
+    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSIqd8GjP_mUdvCrD2J8uu4IogapvjdEVyxA&s",
+    "wrong_one": "80 km/h",
+    "wrong_two": "70 km/h",
+    "wrong_three": "60 km/h",
+    "correct": "50 km/h"
+  },
+  {
+    "id": 3,
+    "statement": "¿Qué significa una señal triangular con borde rojo y un fondo blanco en el contexto del tránsito en Chile?",
+    "image_url": "https://driveautoescuelas.com/wp-content/uploads/2018/06/dificultades-en-un-ceda-el-paso.jpg",
+    "wrong_one": "Indica el inicio de una zona escolar",
+    "wrong_two": "Es una advertencia de curva peligrosa",
+    "wrong_three": "Indica la proximidad de un cruce ferroviario",
+    "correct": "Es una señal de ceda el paso"
+  },
+  {
+    "id": 4,
+    "statement": "Al conducir en una vía con dos carriles en sentido contrario, ¿cuál es la regla para adelantar a otro vehículo?",
+    "image_url": "https://plus.unsplash.com/premium_photo-1663011337189-5e3985c4a835?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y2FsbGUlMjBkZSUyMGRvYmxlJTIwc2VudGlkb3xlbnwwfHwwfHx8MA%3D%3D",
+    "wrong_one": "Adelantar por la derecha",
+    "wrong_two": "Aumentar la velocidad sin señalizar",
+    "wrong_three": "Usar el carril central sin precaución",
+    "correct": "Adelantar por la izquierda únicamente cuando la maniobra sea segura"
+  },
+  {
+    "id": 5,
+    "statement": "¿Qué distancia mínima de seguridad se recomienda mantener entre vehículos en carretera, en condiciones normales de circulación?",
+    "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/infobae/HKJH3AMCHRGYNK4PSYORUAZWFI.jpg",
+    "wrong_one": "Un vehículo de distancia",
+    "wrong_two": "Dos vehículos de distancia",
+    "wrong_three": "No es necesario si se circula a baja velocidad",
+    "correct": "La distancia equivalente a dos segundos de recorrido"
+  },
+  {
+    "id": 6,
+    "statement": "En condiciones de lluvia intensa, ¿cuál es la recomendación para evitar hidroplaneo?",
+    "image_url": "https://cdn-mx.comparabien.com/s3fs-public/field/image/auto-en-la-lluvia.jpg",
+    "wrong_one": "Aumentar la velocidad para evitar el agua estancada",
+    "wrong_two": "Mantener el mismo ritmo sin variaciones",
+    "wrong_three": "Utilizar luces altas para mejorar la visibilidad",
+    "correct": "Reducir la velocidad y evitar movimientos bruscos del volante"
+  },
+  {
+    "id": 7,
+    "statement": "Si un semáforo presenta la luz amarilla intermitente, ¿qué acción debe realizar el conductor?",
+    "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/infobae/W66QZXR54JARRBQ3CN6ODEXLZQ.jpg",
+    "wrong_one": "Acelerar para pasar la intersección",
+    "wrong_two": "Detenerse inmediatamente sin importar la situación",
+    "wrong_three": "Ignorar la señal y continuar a velocidad constante",
+    "correct": "Reducir la velocidad y proceder con precaución, cediendo el paso si es necesario"
+  },
+  {
+    "id": 8,
+    "statement": "En una rotonda, ¿cuál es la regla principal de circulación?",
+    "image_url": "https://cms-gauib.s3.eu-central-1.amazonaws.com/noticias/imagenes/rotonda_problemas_1654602372.jpg?v=1",
+    "wrong_one": "Ceder el paso a los vehículos que entran a la rotonda",
+    "wrong_two": "Adelantar en el interior de la rotonda",
+    "wrong_three": "Mantener siempre el carril exterior",
+    "correct": "Ceder el paso a los vehículos que ya están circulando en la rotonda"
+  },
+  {
+    "id": 9,
+    "statement": "¿Qué significa una línea continua en el centro de la calzada en una autopista?",
+    "image_url": "https://practicatest.com/static/img/test/CR/0344fc96347c3dc17045af40d2f2d0be.jpg",
+    "wrong_one": "Que es obligatorio adelantar a la izquierda",
+    "wrong_two": "Que se puede adelantar con precaución",
+    "wrong_three": "Que el carril se reserva para vehículos de emergencia",
+    "correct": "Que está prohibido realizar adelantamientos"
+  },
+  {
+    "id": 10,
+    "statement": "¿Qué documentación es obligatoria llevar en todo momento mientras se conduce en Chile?",
+    "image_url": "https://regalospandora.cl/cdn/shop/products/Porta-Documentos-Auto2.jpg?v=1611776325",
+    "wrong_one": "Solo la cédula de identidad",
+    "wrong_two": "Solo la póliza del seguro",
+    "wrong_three": "Solo el permiso de circulación",
+    "correct": "El permiso de conducir, la cédula de identidad y la póliza del seguro obligatorio"
+  },
+  {
+    "id": 11,
+    "statement": "En una vía de doble sentido, ¿qué maniobra se debe evitar para garantizar la seguridad vial?",
+    "image_url": "https://lh6.googleusercontent.com/proxy/FHEG9tZSj5yA9elWyUPUS3A9HQBlf4JdeDCLmX5yJ2hQNSN9xTwQuK-BjQKpKyKit9jhT8fOa9i0OBk",
+    "wrong_one": "Señalizar antes de cambiar de carril",
+    "wrong_two": "Respetar la distancia de seguridad",
+    "wrong_three": "Circular a velocidad moderada",
+    "correct": "Adelantar sin tener una visibilidad clara del frente"
+  },
+  {
+    "id": 12,
+    "statement": "¿Cuál es la sanción típica por conducir bajo los efectos del alcohol en Chile?",
+    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQm_GNZlt2a9PjxIZCmDCRkXYg66liJrMXgSw&s",
+    "wrong_one": "Solo una amonestación verbal",
+    "wrong_two": "Una multa menor sin suspensión de la licencia",
+    "wrong_three": "Una advertencia en el registro",
+    "correct": "Multa, suspensión del permiso de conducir y posibles cargos penales"
+  },
+  {
+    "id": 13,
+    "statement": "¿Qué indica una señal rectangular con fondo azul y pictograma blanco de un auto?",
+    "image_url": "https://thumbs.dreamstime.com/b/se%C3%B1al-de-tr%C3%A1fico-rectangular-en-azul-y-blanco-aislado-sobre-fondo-inicio-carretera-para-coches-colecci%C3%B3n-iconos-se%C3%B1ales-213647085.jpg",
+    "wrong_one": "Fin de la vía rápida",
+    "wrong_two": "Zona escolar",
+    "wrong_three": "Prohibición de adelantamiento",
+    "correct": "Obligación de circular por ese carril"
+  },
+  {
+    "id": 14,
+    "statement": "Al aproximarse a un cruce peatonal sin semáforo, ¿cuál es la conducta correcta?",
+    "image_url": "https://www.diario5.com.ar/wp-content/uploads/2023/03/PINTURA-DE-SENDA-PEATONAL-320230326.jpg",
+    "wrong_one": "Ignorar a los peatones si no se mueven",
+    "wrong_two": "Acelerar para pasar antes de que crucen",
+    "wrong_three": "Detenerse solo si hay peatones en el medio de la vía",
+    "correct": "Reducir la velocidad y detenerse si hay peatones cruzando"
+  },
+  {
+    "id": 15,
+    "statement": "En una vía de alta velocidad, ¿cuál es la recomendación para un conductor que se encuentra cansado?",
+    "image_url": "https://static.vecteezy.com/system/resources/previews/000/539/925/non_2x/business-concept-of-businessman-tired-of-working-with-low-battery-vector-illustration.jpg",
+    "wrong_one": "Continuar, ya que detenerse en autopista es peligroso",
+    "wrong_two": "Abrir las ventanillas para mantenerse despierto",
+    "wrong_three": "Beber café y seguir conduciendo",
+    "correct": "Buscar un lugar seguro para detenerse y descansar"
+  },
+  {
+    "id": 16,
+    "statement": "Si se encuentra una señal de 'Peligro: curva pronunciada', ¿qué debe hacer el conductor?",
+    "image_url": "https://d2yoo3qu6vrk5d.cloudfront.net/pulzo-lite/images-resized/PP2960597A-h-o.webp",
+    "wrong_one": "Mantener la velocidad, ya que la señal es solo informativa",
+    "wrong_two": "Adelantar a vehículos lentos antes de la curva",
+    "wrong_three": "Aumentar la velocidad para salir rápidamente de la curva",
+    "correct": "Reducir la velocidad y tomar la curva con precaución"
+  },
+  {
+    "id": 17,
+    "statement": "¿Qué debe hacer un conductor al ver un vehículo de emergencia con luces intermitentes en la vía?",
+    "image_url": "https://www.sociosdebomberos.cl/wp-content/uploads/2015/02/ambu.jpg",
+    "wrong_one": "Ignorar la situación si va a la misma velocidad",
+    "wrong_two": "Continuar a la misma velocidad",
+    "wrong_three": "Adelantar al vehículo para despejar el camino",
+    "correct": "Reducir la velocidad, cambiar de carril y ceder el paso"
+  },
+  {
+    "id": 18,
+    "statement": "¿Cuál es el procedimiento correcto para reincorporarse a la vía desde una rampa de acceso?",
+    "image_url": "https://media.istockphoto.com/id/144804631/es/foto/tome-la-autopista.jpg?s=612x612&w=0&k=20&c=HBrC4GBML22hRNx8PYmbfmGV66RgculCyNrQ1LR1QSs=",
+    "wrong_one": "Acelerar abruptamente para tomar el carril sin verificar",
+    "wrong_two": "Detenerse en la rampa y esperar a que el carril se libere",
+    "wrong_three": "Utilizar el carril de emergencia para incorporarse",
+    "correct": "Acelerar gradualmente y verificar que el carril esté libre antes de integrarse"
+  },
+  {
+    "id": 19,
+    "statement": "¿Qué significa una señal de tránsito con fondo amarillo y pictograma negro de un vehículo en derrape?",
+    "image_url": "https://blog.way.com/wp-content/uploads/2024/11/slippery-when-wet-road-sign.jpg",
+    "wrong_one": "Que se permite realizar maniobras de derrape controlado",
+    "wrong_two": "Que la vía está en construcción",
+    "wrong_three": "Que se debe acelerar para evitar derrapes",
+    "correct": "Advertencia de condiciones resbaladizas en la vía"
+  },
+  {
+    "id": 20,
+    "statement": "Al transitar por una zona escolar, ¿qué límite de velocidad se debe respetar?",
+    "image_url": "https://www.intt.gob.ve/inttweb/wp-content/uploads/2022/04/maxresdefault-2-300x169.jpg",
+    "wrong_one": "80 km/h",
+    "wrong_two": "70 km/h",
+    "wrong_three": "60 km/h",
+    "correct": "30 km/h"
+  },
+  {
+    "id": 21,
+    "statement": "En una autopista, ¿qué maniobra es imprescindible antes de cambiar de carril?",
+    "image_url": "https://fotografias.lasexta.com/clipping/cmsimages02/2024/06/26/E4EB9154-BD97-45D7-9D12-B1BA305B051A/sistema-cambio-carril-automatico_58.jpg?crop=4961,2813,x0,y250&width=1000&height=567&optimize=high&format=webply",
+    "wrong_one": "Encender las luces largas",
+    "wrong_two": "Acelerar y luego cambiar sin señalizar",
+    "wrong_three": "Utilizar la bocina para avisar a otros conductores",
+    "correct": "Señalizar y verificar los espejos y puntos ciegos"
+  },
+  {
+    "id": 22,
+    "statement": "¿Qué indica una señal de tránsito circular con borde rojo y un símbolo de 'X' sobre un vehículo?",
+    "image_url": "https://www.shutterstock.com/image-vector/no-vehicles-allowed-sign-red-600nw-1383924356.jpg",
+    "wrong_one": "Fin de prohibición de circulación",
+    "wrong_two": "Obligación de detenerse",
+    "wrong_three": "Indicación de zona peatonal",
+    "correct": "Prohibición de estacionar en esa zona"
+  },
+  {
+    "id": 23,
+    "statement": "Al acercarse a un puente peatonal elevado, ¿qué precaución debe tomar el conductor?",
+    "image_url": "https://images.adsttc.com/media/images/56ee/06c3/e58e/ced2/cb00/016a/newsletter/168AG20150923D0007.jpg?1458439871",
+    "wrong_one": "Aumentar la velocidad para cruzar rápidamente",
+    "wrong_two": "Ignorar la señalización si no hay peatones",
+    "wrong_three": "Adelantar a otros vehículos para evitar congestión",
+    "correct": "Reducir la velocidad y estar atento a la presencia de peatones"
+  },
+  {
+    "id": 24,
+    "statement": "Si se detecta un fallo mecánico en el vehículo en plena carretera, ¿cuál es la conducta recomendada?",
+    "image_url": "https://www.edenred.mx/hs-fs/hubfs/Media%20Source%202023%20%20(imagenes%20blog)/10%20fallas%20mecanicas%20comunes/que-es-una-falla-mecanica.png?width=600&height=343&name=que-es-una-falla-mecanica.png",
+    "wrong_one": "Continuar conduciendo hasta el destino",
+    "wrong_two": "Realizar reparaciones improvisadas en el carril de circulación",
+    "wrong_three": "Parar bruscamente sin señalizar",
+    "correct": "Señalizar la emergencia y detenerse en un lugar seguro para solicitar ayuda"
+  },
+  {
+    "id": 25,
+    "statement": "¿Qué factor es determinante para evitar el efecto de aquaplaning en condiciones de lluvia?",
+    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzrDhW8uBdy9_g91ntkNu7MeyLSNgMzYFkCQ&s",
+    "wrong_one": "Utilizar luces de niebla en lugar de bajas",
+    "wrong_two": "Acelerar para mantener tracción",
+    "wrong_three": "No utilizar frenos para evitar bloqueos",
+    "correct": "Reducir la velocidad y mantener una conducción suave"
+  },
+  {
+    "id": 26,
+    "statement": "En condiciones de niebla densa, ¿cuál es la recomendación para mejorar la visibilidad sin deslumbrar a otros?",
+    "image_url": "https://www.seguridadvialenlaempresa.com/media/blog/niebla-768x520-1.jpg",
+    "wrong_one": "Usar luces altas para iluminar la vía",
+    "wrong_two": "Encender las luces de emergencia",
+    "wrong_three": "Aumentar la velocidad para salir de la niebla",
+    "correct": "Usar luces bajas y reducir la velocidad considerablemente"
+  },
+  {
+    "id": 27,
+    "statement": "¿Qué comportamiento es obligatorio cuando se conduce detrás de un vehículo lento en carretera?",
+    "image_url": "https://media.istockphoto.com/id/513106144/es/foto/tr%C3%A1fico-en-carretera-de-los-veh%C3%ADculos.jpg?s=612x612&w=0&k=20&c=5jRRhxfMpryBHJoVNbyHBirsqrZiU5J4PKTEzJUCDsY=",
+    "wrong_one": "Mantener una distancia mínima de 1 metro",
+    "wrong_two": "Adelantar sin señalizar al primer signo que aparezca",
+    "wrong_three": "Circular muy cerca para presionar al vehículo",
+    "correct": "Mantener una distancia de seguridad y solo adelantar cuando sea seguro"
+  },
+  {
+    "id": 28,
+    "statement": "En una situación de emergencia, ¿qué maniobra debe realizar el conductor para evitar una colisión inminente?",
+    "image_url": "https://cdn.uc.assets.prezly.com/2c567ccc-16a2-4b01-84da-6ad3565dbf6a/car.jpg",
+    "wrong_one": "Frenar bruscamente sin mirar retrovisores",
+    "wrong_two": "Adelantar en el último instante",
+    "wrong_three": "Ignorar los espejos laterales",
+    "correct": "Frenar de forma progresiva y utilizar la dirección para esquivar el obstáculo"
+  },
+  {
+    "id": 29,
+    "statement": "¿Qué significa la señal que indica 'Curva a la izquierda' con un pictograma de vehículo?",
+    "image_url": "https://publicidadyletreros.cl/prod/269/VTO-0012-1.jpg",
+    "wrong_one": "Obligación de girar a la derecha",
+    "wrong_two": "Prohibición de continuar en la misma vía",
+    "wrong_three": "Advertencia de un cruce de ferrocarril",
+    "correct": "Indica la existencia de una curva pronunciada a la izquierda"
+  },
+  {
+    "id": 30,
+    "statement": "Si un vehículo se aproxima en sentido contrario a alta velocidad, ¿cuál es la conducta adecuada para evitar accidentes?",
+    "image_url": "https://motor.elpais.com/wp-content/uploads/2021/07/aparcar-sentido-contrario-1200x675.jpg",
+    "wrong_one": "Acelerar para salir de su trayectoria",
+    "wrong_two": "Mantener el mismo carril sin modificar la velocidad",
+    "wrong_three": "Realizar maniobras bruscas de giro",
+    "correct": "Reducir la velocidad y, de ser posible, invadir ligeramente el carril contrario sin chocar"
+  },
+  {
+    "id": 31,
+    "statement": "¿Qué documento debe estar siempre visible en el vehículo para comprobar su circulación legal?",
+    "image_url": "https://www.latercera.com/resizer/v2/ADRQQQQ44FAPBN2JQSN6NKKPYA.jpg?quality=80&smart=true&auth=3c9d02ee7bdf8d0772b4b26c9fb77e92ecfcd03d64a97354a0f8421004b59913&width=690&height=502",
+    "wrong_one": "La tarjeta de crédito del conductor",
+    "wrong_two": "La licencia de conducir únicamente",
+    "wrong_three": "El certificado de revisión técnica solo en carretera",
+    "correct": "El permiso de circulación vigente junto con la licencia de conducir y el SOAT"
+  },
+  {
+    "id": 32,
+    "statement": "Al conducir en una vía con obras, ¿cuál es la precaución esencial a tener en cuenta?",
+    "image_url": "https://media.admagazine.com/photos/618a6340fb71c632cb92418f/master/w_1600%2Cc_limit/77389.jpg",
+    "wrong_one": "Aumentar la velocidad para pasar rápido",
+    "wrong_two": "Ignorar las señales si se conoce la zona",
+    "wrong_three": "Usar el carril de emergencia para adelantar",
+    "correct": "Reducir la velocidad y prestar atención a la señalización temporal"
+  },
+  {
+    "id": 33,
+    "statement": "¿Qué indica una señal rectangular con fondo blanco y borde negro con la imagen de una bicicleta?",
+    "image_url": "https://us.123rf.com/450wm/antvlk/antvlk1702/antvlk170200095/72964839-bicicleta-camino-se%C3%B1al-azul-cielo-plano-de-fondo.jpg?ver=6",
+    "wrong_one": "Obligación de circular en solitario",
+    "wrong_two": "Fin de una zona peatonal",
+    "wrong_three": "Indicación de carril exclusivo para vehículos motorizados",
+    "correct": "Presencia de una vía exclusiva o compartida con ciclistas"
+  },
+  {
+    "id": 34,
+    "statement": "En condiciones de alta altitud, ¿cuál es uno de los efectos que se deben considerar al conducir?",
+    "image_url": "",
+    "wrong_one": "El vehículo consume menos combustible",
+    "wrong_two": "El motor se sobreenfría",
+    "wrong_three": "La presión de los neumáticos aumenta",
+    "correct": "El motor pierde potencia, por lo que se debe ajustar la conducción"
+  },
+  {
+    "id": 35,
+    "statement": "¿Qué regla fundamental se debe respetar al circular cerca de zonas escolares?",
+    "image_url": "https://images.unsplash.com/photo-1617392401733-0cf876aec80f?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2FycmV0ZXJhcyUyMGRlJTIwbW9udGElQzMlQjFhfGVufDB8fDB8fHww",
+    "wrong_one": "Circular a alta velocidad para despejar la zona rápidamente",
+    "wrong_two": "Utilizar solo el carril izquierdo",
+    "wrong_three": "Ignorar a los peatones si parecen atentos",
+    "correct": "Reducir la velocidad y estar alerta ante la presencia de niños y docentes"
+  },
+  {
+    "id": 36,
+    "statement": "En una carretera de doble sentido, ¿cuál es el riesgo principal al no mantener la distancia de seguridad?",
+    "image_url": "https://www.aarp.org/content/dam/aarp/home-and-family/getting-around/2013-07/1140-two-lane-roadway-passing-driving-resource-center-esp.jpg",
+    "wrong_one": "Mayor consumo de combustible",
+    "wrong_two": "Posibilidad de multas por exceso de velocidad",
+    "wrong_three": "Que los neumáticos se desgasten más rápido",
+    "correct": "El riesgo de colisiones por falta de reacción ante frenadas repentinas"
+  },
+  {
+    "id": 37,
+    "statement": "¿Qué acción es indispensable al incorporar un vehículo a la vía desde un estacionamiento lateral?",
+    "image_url": "https://assets.volkswagen.com/is/image/volkswagenag/como-estacionarse-paralelo?Zml0PWNyb3AlMkMxJndpZD0xMjgwJmhlaT04NTMmZm10PWpwZWcmcWx0PTc5JmJmYz1vZmYmNWU5Mw==",
+    "wrong_one": "Acelerar inmediatamente para evitar interrumpir el tráfico",
+    "wrong_two": "Esperar al semáforo en rojo",
+    "wrong_three": "Tocar la bocina para avisar a otros conductores",
+    "correct": "Señalizar la maniobra y asegurarse de que el carril está libre antes de incorporarse"
+  },
+  {
+    "id": 38,
+    "statement": "En un cruce con semáforo, ¿cuál es la medida correcta si la luz cambia de verde a amarilla cuando ya estás en la intersección?",
+    "image_url": "https://practicatest.cl/static/img/cl/blog/semaforo-interseccion.jpg",
+    "wrong_one": "Acelerar para salir rápidamente del cruce",
+    "wrong_two": "Frenar bruscamente sin anticipar la situación",
+    "wrong_three": "Ignorar la señal y continuar a velocidad constante",
+    "correct": "Continuar con precaución, asegurándote de poder cruzar la intersección de forma segura"
+  },
+  {
+    "id": 39,
+    "statement": "Si se aproxima un vehículo de emergencia, ¿qué debe hacer un conductor que circula en una autopista?",
+    "image_url": "https://derco-pe-prod.s3.amazonaws.com/images/contents/2021-09-20%2012%3A00%3A32-vehiculos-de-emergencia.jpg",
+    "wrong_one": "Mantener la velocidad sin cambiar de carril",
+    "wrong_two": "Adelantar al vehículo de emergencia",
+    "wrong_three": "Frenar en seco sin señalizar",
+    "correct": "Moverse hacia el carril de la derecha y reducir la velocidad para facilitar el paso"
+  },
+  {
+    "id": 40,
+    "statement": "¿Qué efecto tiene el exceso de velocidad en las curvas cerradas?",
+    "image_url": "https://gruasurzua.cl/wp-content/uploads/2023/08/exceso-de-velocidad.jpg",
+    "wrong_one": "Mejora la estabilidad del vehículo",
+    "wrong_two": "Reduce el tiempo de reacción ante imprevistos",
+    "wrong_three": "Aumenta la adherencia de los neumáticos",
+    "correct": "Disminuye la estabilidad, incrementando el riesgo de pérdida de control"
+  },
+  {
+    "id": 41,
+    "statement": "Al conducir en pendientes pronunciadas, ¿cuál es la técnica recomendada para evitar derrapes en bajadas?",
+    "image_url": "https://practicatest.com/static/img/test/CL/2580cc16fd39dcfa0e69a080872837a8.jpg",
+    "wrong_one": "Utilizar únicamente la aceleración para mantener el control",
+    "wrong_two": "Frenar de manera intermitente sin reducir la velocidad",
+    "wrong_three": "Cambiar constantemente de carril para ganar tracción",
+    "correct": "Usar el freno motor y mantener una velocidad constante"
+  },
+  {
+    "id": 42,
+    "statement": "¿Qué normativa se aplica en Chile respecto al uso del cinturón de seguridad?",
+    "image_url": "https://www.radiocamilatv.cl/portal/core/controllers/Noticias/imagen/06-06-2023_19-44-19cinturon.jpeg",
+    "wrong_one": "Es opcional para pasajeros en asientos traseros",
+    "wrong_two": "Solo es obligatorio en autopistas",
+    "wrong_three": "Se recomienda, pero no es sancionable",
+    "correct": "Es obligatorio para todos los ocupantes del vehículo, sin excepción"
+  },
+  {
+    "id": 43,
+    "statement": "¿Cuál es el procedimiento adecuado al enfrentar una intersección con visibilidad reducida debido a curvas o montañas?",
+    "image_url": "https://cdn.pixabay.com/photo/2019/02/09/19/37/road-3985827_1280.jpg",
+    "wrong_one": "Acelerar para pasar antes de que se presente un obstáculo",
+    "wrong_two": "Ignorar la falta de visibilidad y mantener la velocidad habitual",
+    "wrong_three": "Adelantar sin detenerse a verificar la vía contraria",
+    "correct": "Reducir significativamente la velocidad y proceder con extrema precaución"
+  },
+  {
+    "id": 44,
+    "statement": "En un área de rotonda, ¿qué error es común y peligroso si no se respeta la norma de circulación?",
+    "image_url": "https://media.istockphoto.com/id/1640634539/es/foto/tr%C3%A1fico-en-hora-punta-en-la-rotonda.jpg?s=612x612&w=0&k=20&c=kD0c8msXMpqk0sxFbH6OrGt6fdId4OKLVGXvDliEz7g=",
+    "wrong_one": "Mantener la velocidad reducida",
+    "wrong_two": "Usar intermitentes de forma adecuada",
+    "wrong_three": "Respetar la prioridad de los vehículos dentro de la rotonda",
+    "correct": "Intentar ingresar sin ceder el paso a los vehículos que ya circulan en ella"
+  },
+  {
+    "id": 45,
+    "statement": "¿Qué indicaciones debe seguir un conductor al transitar por una zona de construcción?",
+    "image_url": "https://img.freepik.com/vector-premium/zona-construccion_24911-13621.jpg",
+    "wrong_one": "Acelerar para minimizar la permanencia en la zona",
+    "wrong_two": "Ignorar la señalización temporal y circular normalmente",
+    "wrong_three": "Usar únicamente el carril central sin precaución",
+    "correct": "Reducir la velocidad, prestar atención a la señalización y seguir las instrucciones de los operarios"
+  },
+  {
+    "id": 46,
+    "statement": "Si un vehículo circula por un carril exclusivo para buses y este se encuentra en una zona mixta, ¿cuál es la conducta correcta?",
+    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9tDfyzuDhBo_6vyYwsYFTaQCvHfgIi_vWDw&s",
+    "wrong_one": "Invadir el carril para adelantar",
+    "wrong_two": "Mantener el mismo carril sin considerar la prioridad",
+    "wrong_three": "Utilizar el carril exclusivo para estacionar momentáneamente",
+    "correct": "Respetar la señalización y evitar circular por ese carril, permitiendo el paso a los buses"
+  },
+  {
+    "id": 47,
+    "statement": "¿Qué medida debe tomar un conductor al ver una señal de 'Curva peligrosa' con advertencia adicional de 'Superficie resbaladiza'?",
+    "image_url": "https://live.staticflickr.com/50/107815726_eeec36138c_b.jpg",
+    "wrong_one": "Aumentar la velocidad para salir rápido de la curva",
+    "wrong_two": "Ignorar la señal si la visibilidad es buena",
+    "wrong_three": "Adelantar a vehículos que circulen despacio",
+    "correct": "Reducir la velocidad y mantener la mayor precaución posible al tomar la curva"
+  },
+  {
+    "id": 48,
+    "statement": "En el contexto del examen de conducir en Chile, ¿cuál es la consecuencia de utilizar el teléfono móvil sin manos libres mientras se conduce?",
+    "image_url": "https://www.latercera.com/resizer/v2/7OHL7FONHFBN5L6QDZEWGPVEPQ.jpg?quality=80&smart=true&auth=2778edc9c0f27d6b92bb03cf4219bc2b9e917c82bf2156190b614e0a2a625575&width=690&height=502",
+    "wrong_one": "Solo una amonestación verbal en el examen",
+    "wrong_two": "Pérdida parcial de puntos sin multa",
+    "wrong_three": "Multa únicamente si se produce un accidente",
+    "correct": "Multa, posible suspensión de la licencia y descuento severo en el puntaje del examen"
+  },
+  {
+    "id": 49,
+    "statement": "¿Qué importancia tiene el mantenimiento preventivo del vehículo en relación a la seguridad vial según la normativa chilena?",
+    "image_url": "https://sergioescobar.cl/wp-content/uploads/2021/01/Mecanicos-certificados-en-nuestras-marcas.jpg",
+    "wrong_one": "Es responsabilidad exclusiva del taller mecánico sin relación directa con la seguridad",
+    "wrong_two": "Solo es necesario antes de viajes largos",
+    "wrong_three": "No influye en la aprobación del examen teórico",
+    "correct": "Es fundamental para garantizar el funcionamiento seguro y eficiente del vehículo, reduciendo riesgos en la vía"
+  },
+  {
+    "id": 50,
+    "statement": "Durante un examen práctico de conducción, ¿cómo se evalúa la capacidad del conductor para reaccionar ante imprevistos en la vía?",
+    "image_url": "https://practicatest.cl/static/img/cl/blog/pasar-primer-intento-examenes.jpg",
+    "wrong_one": "Por su rapidez para adelantar vehículos",
+    "wrong_two": "Solo por la velocidad en que circula",
+    "wrong_three": "Por la habilidad de estacionar en paralelo",
+    "correct": "Por su capacidad de anticipar riesgos, reaccionar adecuadamente y mantener la calma ante situaciones inesperadas"
+  }
+]
