@@ -11,6 +11,7 @@ import { IonSpinner } from '@ionic/angular/standalone';
       <img src="assets/splash-removebg-preview.png" alt="Logo" class="loading-logo" />
       <ion-spinner name="dots" class="spinner"></ion-spinner>
       <p class="loading-text">Cargando...</p>
+      <div class="signature">MomoDev 🐌✨</div>
     </div>
   `,
   styleUrls: ['./loading-overlay.component.scss']

@@ -1,14 +1,17 @@
 <ion-content class="result-page ion-padding">
-  <div class="result-wrapper">
+  <!-- Componente de carga -->
+  <app-loading-overlay [visible]="isLoading"></app-loading-overlay>
+
+  <div class="result-wrapper" *ngIf="!isLoading">
     <div class="result-summary">
       <h2>Resultado Final</h2>
       <div class="score"><span>{{ correct }}</span> / {{ answers.length }}</div>
       <div class="percentage">{{ percentage }}%</div>
     </div>
 
-    <ion-button expand="block" class="home-btn" (click)="goHome()"
-      >Volver al inicio</ion-button
-    >
+    <ion-button expand="block" class="home-btn" (click)="goHome()">
+      Volver al inicio
+    </ion-button>
 
     <div class="incorrect-container" *ngIf="incorrectAnswers.length > 0">
       <h3 class="section-title">Respuestas Incorrectas</h3>

@@ -4,6 +4,16 @@
   --background: #f7f7f7;
   font-family: 'Poppins', sans-serif;
 
+  .result-wrapper {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    justify-content: flex-start;
+    position: relative;
+    padding-bottom: 60px; // espacio para la firma
+  }
+
   .result-summary {
     background: #fff;
     padding: 25px;
@@ -77,6 +87,18 @@
     font-weight: bold;
     border-radius: 12px;
   }
+
+  .signature {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 14px;
+    color: #888;
+    font-weight: 500;
+    opacity: 0.8;
+  }
 }
 
 @keyframes fadeIn {
@@ -117,6 +139,10 @@
       span {
         color: #ff8787;
       }
+    }
+
+    .signature {
+      color: #aaa;
     }
   }
 }
