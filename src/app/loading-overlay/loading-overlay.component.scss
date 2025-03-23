@@ -10,7 +10,7 @@
     font-family: 'Poppins', sans-serif;
 
     .loading-logo {
-      width: 140px;
+      width: 100%;
       margin-bottom: 20px;
       animation: fadeInUp 1s ease-in-out;
     }
@@ -39,3 +39,15 @@
       transform: translateY(0);
     }
   }
+
+  @media (prefers-color-scheme: dark) {
+    .overlay {
+      background: #1e1f21;
+
+      .loading-text {
+        color: #ccc;
+      }
+    }
+  }
+
+
