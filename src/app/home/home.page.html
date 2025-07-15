@@ -1,14 +1,47 @@
 <ion-content class="home ion-padding">
   <div class="home-wrapper">
-    <div class="logo-container">
-      <img src="assets/splash-removebg-preview.png" alt="Logo" class="logo" />
-      <h1 class="title">Examen de Conducción</h1>
-      <ion-button expand="block" class="start-btn" (click)="startTest()">
-        Iniciar Test
-      </ion-button>
-    </div>
+    <header class="logo-container">
+      <img
+        src="assets/splash-removebg-preview.png"
+        alt="Logo Driving School"
+        class="logo"
+      />
+      <h1 class="title">Driving School</h1>
+      <p class="slogan">
+        Domina el camino con la mejor práctica para tu examen de conducción
+        Clase B en Chile.
+      </p>
 
-    <div class="signature">MomoDev 🐌✨</div>
+      <main class="btn-container">
+        <ion-button expand="block" class="start-btn" (click)="startTest()">
+          Test de 30 preguntas
+        </ion-button>
+        <ion-button expand="block" class="start-btn" (click)="startMiniQuiz()">
+          Mini Quiz de 10 preguntas
+        </ion-button>
+        <ion-button
+          expand="block"
+          class="start-btn"
+          (click)="startCustomQuiz()"
+        >
+          Test Personalizado
+        </ion-button>
+
+        <ion-button
+          expand="block"
+          class="start-btn"
+          (click)="goToStudyModules()"
+        >
+          Estudiar modulos
+        </ion-button>
+
+        <ion-button expand="block" class="start-btn" (click)="goToSettings()">
+          Ajustes
+        </ion-button>
+      </main>
+    </header>
+
+    <footer class="signature">MomoDev 🐌✨</footer>
   </div>
 
   <!-- Overlay de carga -->

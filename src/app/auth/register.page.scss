@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+.auth-page {
+  --background: #f7f7f7;
+  font-family: "Poppins", sans-serif;
+
+  .auth-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
+    animation: fadeInUp 0.6s ease-in-out;
+
+    .logo {
+      width: 100%;
+      max-width: 280px;
+      margin-bottom: 20px;
+    }
+
+    .title {
+      font-size: 22px;
+      font-weight: 600;
+      margin-bottom: 8px;
+      text-align: center;
+    }
+
+    .subtitle {
+      font-size: 14px;
+      color: #666;
+      margin-bottom: 24px;
+      text-align: center;
+    }
+
+    .auth-input {
+      width: 100%;
+      max-width: 320px;
+      margin-bottom: 16px;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+    }
+
+    .auth-btn {
+      --background: #f38d8d;
+      --color: #fff;
+      font-weight: bold;
+      border-radius: 12px;
+      margin-top: 10px;
+      width: 100%;
+      max-width: 320px;
+    }
+
+    .alt-btn {
+      font-size: 14px;
+      margin-top: 10px;
+      color: #555;
+    }
+
+    .error {
+      color: #c62828;
+      font-size: 14px;
+      margin-bottom: 8px;
+      text-align: center;
+    }
+
+    .signature {
+      margin-top: 40px;
+      font-size: 14px;
+      color: #888;
+    }
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

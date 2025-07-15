@@ -1,0 +1,12 @@
+<ion-content class="custom-quiz-page ion-padding">
+  <div class="quiz-wrapper">
+    <h2 class="title">{{ module?.title }}</h2>
+    <p class="slogan" [innerHTML]="module?.paragraph"></p>
+
+    <ion-button class="start-btn" *ngIf="!module?.read" (click)="markAsRead()">
+      Marcar como visto
+    </ion-button>
+
+    <ion-button class="start-btn" (click)="goBack()">Volver</ion-button>
+  </div>
+</ion-content>

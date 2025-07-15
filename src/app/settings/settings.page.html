@@ -1,0 +1,40 @@
+<ion-content class="settings-page ion-padding">
+  <div class="settings-wrapper">
+    <header class="logo-container">
+      <img src="assets/ajustes.png" alt="Logo Driving School" class="logo" />
+      <h2 class="title">Ajustes</h2>
+      <p class="slogan">
+        Domina el camino con la mejor práctica para tu examen de conducción
+        Clase B en Chile.
+      </p>
+    </header>
+
+    <main class="btn-container">
+      <div class="toggle-wrapper">
+        <label class="toggle-label">Modo oscuro</label>
+        <ion-toggle
+          [(ngModel)]="darkMode"
+          (ionChange)="onToggleDarkMode()"
+        ></ion-toggle>
+      </div>
+
+      <ion-button
+        expand="block"
+        class="start-btn"
+        (click)="goToChangePassword()"
+      >
+        Cambiar contraseña
+      </ion-button>
+
+      <ion-button expand="block" class="logout-btn" (click)="logout()">
+        Cerrar sesión
+      </ion-button>
+
+      <ion-button expand="block" class="start-btn" routerLink="/home">
+        Volver
+      </ion-button>
+    </main>
+
+    <footer class="signature">MomoDev 🐌✨</footer>
+  </div>
+</ion-content>

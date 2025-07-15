@@ -1,0 +1,43 @@
+<ion-content class="auth-page ion-padding">
+  <div class="auth-wrapper">
+    <img
+      src="assets/splash-removebg-preview.png"
+      alt="Logo Driving School"
+      class="logo"
+    />
+    <h2 class="title">Bienvenido de nuevo</h2>
+    <p class="subtitle">Inicia sesión para comenzar a practicar</p>
+
+    <ion-item class="auth-input">
+      <ion-label position="floating">Usuario</ion-label>
+      <ion-input [(ngModel)]="username"></ion-input>
+    </ion-item>
+
+    <ion-item class="auth-input">
+      <ion-label position="floating">Contraseña</ion-label>
+      <ion-input [(ngModel)]="password" type="password"></ion-input>
+    </ion-item>
+
+    <p class="error" *ngIf="errorMessage">{{ errorMessage }}</p>
+
+    <ion-button
+      expand="block"
+      class="auth-btn"
+      (click)="login()"
+      [disabled]="loading"
+    >
+      {{ loading ? 'Cargando...' : 'Ingresar' }}
+    </ion-button>
+
+    <ion-button
+      expand="block"
+      fill="clear"
+      routerLink="/register"
+      class="alt-btn"
+    >
+      ¿No tienes cuenta? Regístrate
+    </ion-button>
+
+    <div class="signature">MomoDev 🐌✨</div>
+  </div>
+</ion-content>

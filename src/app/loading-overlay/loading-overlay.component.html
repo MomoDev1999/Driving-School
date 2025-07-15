@@ -1,3 +1,6 @@
-<p>
-  loading-overlay works!
-</p>
+<div class="overlay" *ngIf="visible">
+  <img src="assets/loading.png" alt="Logo" class="loading-logo" />
+  <ion-spinner name="dots" class="spinner"></ion-spinner>
+  <p class="loading-text">Cargando...</p>
+  <div class="signature">MomoDev 🐌✨</div>
+</div>

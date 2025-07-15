@@ -1,0 +1,56 @@
+<ion-content class="custom-quiz-page ion-padding">
+  <div class="quiz-wrapper">
+    <header class="logo-container">
+      <img
+        src="assets/test-personalizado.png"
+        alt="Logo Driving School"
+        class="logo"
+      />
+      <h2 class="title">Test Personalizado</h2>
+      <p class="slogan">Selecciona las categorías y el número de preguntas.</p>
+    </header>
+
+    <section class="category-list" *ngIf="categories.length; else loadingCats">
+      <div class="category-card" *ngFor="let cat of categories">
+        <ion-checkbox
+          [(ngModel)]="cat.selected"
+          [value]="cat.id"
+          justify="start"
+        ></ion-checkbox>
+        <span class="category-label">{{ cat.category }}</span>
+      </div>
+    </section>
+
+    <ng-template #loadingCats>
+      <p class="loading-text">Cargando categorías...</p>
+    </ng-template>
+
+    <div class="custom-input">
+      <label for="numQuestions">Cantidad de preguntas</label>
+      <ion-input
+        type="text"
+        inputmode="numeric"
+        placeholder="Ej: 10"
+        [value]="numQuestions"
+        (ionInput)="onInputOnlyNumbers($event)"
+      ></ion-input>
+    </div>
+
+    <ion-button
+      expand="block"
+      class="start-btn"
+      (click)="startCustomQuiz()"
+      [disabled]="isLoading"
+    >
+      Iniciar Test
+    </ion-button>
+
+    <ion-button expand="block" class="start-btn" (click)="goBack()">
+      Volver
+    </ion-button>
+
+    <footer class="signature">MomoDev 🐌✨</footer>
+
+    <app-loading-overlay [visible]="isLoading"></app-loading-overlay>
+  </div>
+</ion-content>

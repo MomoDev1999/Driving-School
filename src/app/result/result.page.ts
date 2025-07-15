@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, OnDestroy, ViewEncapsulation } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Router } from '@angular/router';
 import { IonContent, IonButton } from '@ionic/angular/standalone';
@@ -10,9 +10,10 @@ import { LoadingOverlayComponent } from '../loading-overlay/loading-overlay.comp
   templateUrl: './result.page.html',
   styleUrls: ['./result.page.scss'],
   standalone: true,
-  imports: [CommonModule, IonContent, IonButton, LoadingOverlayComponent]
+  encapsulation: ViewEncapsulation.None,
+  imports: [CommonModule, IonContent, IonButton, LoadingOverlayComponent],
 })
-export class ResultPage implements OnInit {
+export class ResultPage implements OnInit, OnDestroy {
   answers: { question: Question; selected: string }[] = [];
   correct = 0;
   percentage = 0;
@@ -25,22 +26,35 @@ export class ResultPage implements OnInit {
     const nav = this.router.getCurrentNavigation();
     if (nav?.extras.state && nav.extras.state['answers']) {
       this.answers = nav.extras.state['answers'];
-      this.correct = this.answers.filter(a => a.selected === a.question.correct).length;
+      this.correct = this.answers.filter(
+        (a) => a.selected === a.question.correct
+      ).length;
       this.percentage = Math.round((this.correct / this.answers.length) * 100);
-      this.incorrectAnswers = this.answers.filter(a => a.selected !== a.question.correct);
+      this.incorrectAnswers = this.answers.filter(
+        (a) => a.selected !== a.question.correct
+      );
     }
 
-    // Desactivamos la carga después de un pequeño delay (opcional)
+    // Bloquea el botón de retroceso del teléfono en esta página
+    history.pushState(null, '', location.href);
+    window.addEventListener('popstate', this.blockBackNavigation);
+
+    // Oculta el overlay tras la transición desde Quiz
     setTimeout(() => {
       this.isLoading = false;
     }, 300);
   }
 
-  goHome() {
-    this.isLoading = true;
+  ngOnDestroy() {
+    window.removeEventListener('popstate', this.blockBackNavigation);
+  }
 
-    setTimeout(() => {
-      this.router.navigateByUrl('/home');
-    }, 300);
+  blockBackNavigation = () => {
+    history.pushState(null, '', location.href);
+  };
+
+  // Al volver a Home desde Result, se navega directamente sin mostrar overlay
+  goHome() {
+    this.router.navigateByUrl('/home');
   }
 }

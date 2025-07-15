@@ -1,25 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
 
 .quiz-page {
   --background: #f8f8f8;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   display: flex;
   flex-direction: column;
   height: 100%;
 
+  // Este contenedor actúa como el "card" que envuelve todo.
   .question-box {
-    margin-top: 15px;
     flex: 1;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
     background: #ffffff;
     padding: 20px;
     border-radius: 18px;
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
-    height: 100%;
     box-sizing: border-box;
     animation: fadeIn 0.6s ease-in-out;
+    // Para asegurarnos de que no se salga el contenido si se hace muy largo:
+    overflow: auto;
+  }
+
+  .card-header {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 15px; /* separa el header de la barra de progreso */
+  }
+
+  .back-button {
+    color: #888;
+    font-size: 16px;
+    --background: transparent;
   }
 
   .progress-container {
@@ -28,19 +40,22 @@
     background: #e0e0e0;
     border-radius: 4px;
     overflow: hidden;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
+    position: relative;
+    z-index: 1;
 
     .progress {
       height: 100%;
       background-color: #ff6b6b;
       transition: width 0.3s ease;
+      min-width: 2px; // Asegura que la barra se vea incluso con porcentajes muy bajos
     }
   }
 
   .question-text {
     font-size: 18px;
     font-weight: 600;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     color: #2a2b2e;
   }
 
@@ -56,6 +71,7 @@
     display: flex;
     flex-direction: column;
     gap: 12px;
+    color: #2a2b2e;
 
     .option {
       display: flex;
@@ -78,6 +94,7 @@
       }
 
       &:hover {
+        background: #ff6b6b;
         color: #fff;
 
         .letter {
@@ -91,10 +108,9 @@
     }
   }
 
-
   .signature {
+    margin-top: 25px;
     text-align: center;
-    margin-top: auto;
     font-size: 14px;
     color: #888;
     font-weight: 500;
@@ -102,7 +118,7 @@
   }
 
   .option.correct {
-    background-color: #2e7d32  !important; // verde
+    background-color: #2e7d32 !important;
     color: #fff !important;
 
     .letter {
@@ -111,19 +127,24 @@
   }
 
   .option.incorrect {
-    background-color: #c62828  !important; // rojo
+    background-color: #c62828 !important;
     color: #fff !important;
 
     .letter {
       color: #fff !important;
     }
   }
-
 }
 
 @keyframes fadeIn {
-  from { opacity: 0; transform: translateY(15px); }
-  to { opacity: 1; transform: translateY(0); }
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 @keyframes fadeInUp {
@@ -137,52 +158,49 @@
   }
 }
 
+.dark .quiz-page {
+  --background: #202124;
 
-@media (prefers-color-scheme: dark) {
-  .quiz-page {
-    --background: #202124;
+  .question-box {
+    background: #2a2b2e;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  }
 
-    .question-box {
-      background: #2a2b2e;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  .question-text {
+    color: #f5f5f5;
+  }
+
+  .question-img {
+    border: 1px solid #444;
+  }
+
+  .options .option {
+    background: #3b3c3f;
+    color: #ddd;
+
+    .letter {
+      color: white;
     }
 
-    .question-text {
-      color: #f5f5f5;
-    }
-
-    .question-img {
-      border: 1px solid #444;
-    }
-
-    .options .option {
-      background: #3b3c3f;
-      color: #ddd;
+    &:hover {
+      background: #ff6b6b;
+      color: #fff;
 
       .letter {
-        color: white;
-      }
-
-      &:hover {
-        background: #ff6b6b;
         color: #fff;
-
-        .letter {
-          color: #fff;
-        }
       }
     }
+  }
 
-    .progress-container {
-      background: #444;
+  .progress-container {
+    background: #444;
 
-      .progress {
-        background-color: #ff6b6b;
-      }
+    .progress {
+      background-color: #ff6b6b;
     }
+  }
 
-    .signature {
-      color: #aaa;
-    }
+  .signature {
+    color: #aaa;
   }
 }

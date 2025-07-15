@@ -448,5 +448,455 @@
     "wrong_two": "Solo por la velocidad en que circula",
     "wrong_three": "Por la habilidad de estacionar en paralelo",
     "correct": "Por su capacidad de anticipar riesgos, reaccionar adecuadamente y mantener la calma ante situaciones inesperadas"
+  },
+  {
+    "id": 51,
+    "statement": "Su vehículo se desvía hacia un lado cuando usted frena. Usted debería:",
+    "image_url": "https://www.comparaonline.cl/blog-statics/cl/uploads/2014/05/90031-ten-cuidado-con-la-desviacin-lateral-1399682870.jpg",
+    "wrong_one": "Cambiar los neumáticos de un lado hacia el otro y viceversa.",
+    "wrong_two": "Usar su freno de mano.",
+    "wrong_three": "Consultar con su mecánico lo antes posible.",
+    "correct": "Bombear el pedal al frenar."
+  },
+  {
+    "id": 52,
+    "statement": "Su vehículo se desvía hacia un lado cuando usted frena. ¿Cuál es la falla más probable?",
+    "image_url": "https://www.muchoneumatico.com/blog/wp-content/uploads/2022/06/Coche-rojo-en-carretera.jpg",
+    "wrong_one": "Un bajo nivel del líquido de frenos.",
+    "wrong_two": "Frenos mal ajustados.",
+    "wrong_three": "Neumáticos con presión de aire inadecuada.",
+    "correct": "Su freno de mano está todavía puesto."
+  },
+  {
+    "id": 53,
+    "statement": "Mientras conduce usted siente un fuerte olor a gasolina. ¿Qué debería hacer usted?",
+    "image_url": "https://motor.elpais.com/wp-content/uploads/2023/07/Olor-a-gasolina.jpg",
+    "wrong_one": "No preocuparse, ya que sólo son los gases de escape.",
+    "wrong_two": "Continuar a una velocidad reducida.",
+    "wrong_three": "Continuar porque sabe que se detendrá algunos kilómetros más allá.",
+    "correct": "Detenerse e investigar el problema."
+  },
+  {
+    "id": 54,
+    "statement": "¿Cómo puede prevenir usted el riesgo de incendio de su vehículo?",
+    "image_url": "https://www.uc.cl/site/assets/files/18416/pexels-pixabay-51951.jpg",
+    "wrong_one": "Manteniendo los niveles de agua sobre el máximo.",
+    "wrong_two": "Evitando conducir con el estanque lleno de combustible.",
+    "wrong_three": "Usando gasolina sin plomo.",
+    "correct": "Revisando su vehículo ante cualquier olor a gasolina extraño."
+  },
+  {
+    "id": 55,
+    "statement": "¿Por qué es importante usar zapatos apropiados cuando conduce?",
+    "image_url": "https://www.muchoneumatico.com/blog/wp-content/uploads/2022/10/Pies-con-bota-pisando-los-Pedales-del-coche.jpg",
+    "wrong_one": "Para evitar el desgaste acelerado de las gomas de los pedales.",
+    "wrong_two": "Para poder efectuar los cambios de marcha más rápidamente.",
+    "wrong_three": "Para poder caminar sin problemas en el caso que necesite solicitar ayuda.",
+    "correct": "Para tener un adecuado control de los pedales."
+  },
+  {
+    "id": 56,
+    "statement": "En un automóvil, ¿cuál de los siguientes elementos reduce el riesgo de lesiones de cuello en una colisión?",
+    "image_url": "https://elgeaditraumatologia.com/wp-content/uploads/2024/04/hombre-con-dolor-de-cuello-tras-accidente.jpg",
+    "wrong_one": "Un asiento dotado de air-bag (bolsa de aire).",
+    "wrong_two": "Los frenos ABS.",
+    "wrong_three": "Una columna de dirección colapsable.",
+    "correct": "Un asiento con apoya-cabeza ajustado en forma apropiada."
+  },
+  {
+    "id": 57,
+    "statement": "¿Qué significa esta luz de advertencia en el panel de instrumentos?",
+    "image_url": "https://practicatest.com/static/img/test/CL/5ab50828058ee601af72f84d6d2fe03b.jpg",
+    "wrong_one": "Luces neblineras.",
+    "wrong_two": "Intermitentes de advertencia de peligro.",
+    "wrong_three": "Luces altas.",
+    "correct": "Freno de mano puesto."
+  },
+  {
+    "id": 58,
+    "statement": "Es esencial que la presión de los neumáticos sea chequeada regularmente. ¿Cuándo se debe hacer esto?",
+    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgT1CeX98rIM1Z4ujjNZIsOZi_xeCAyWHHiw&s",
+    "wrong_one": "Después de un viaje largo.",
+    "wrong_two": "Después de conducir a alta velocidad.",
+    "wrong_three": "Cuando los neumáticos están calientes.",
+    "correct": "Cuando los neumáticos están fríos."
+  },
+  {
+    "id": 59,
+    "statement": "La presión de los neumáticos debe revisarse:",
+    "image_url": "https://cdn-prod-eu.yepgarage.info/upload/euromaster-es/catalog/1609831893406/mecanico-estacion-servicio-reparacion-comprobando-presion-neumaticos-manometro-98862-1375.jpg?411261537",
+    "wrong_one": "Cuando los neumáticos están calientes.",
+    "wrong_two": "En cualquier momento, porque da igual que los neumáticos estén fríos o calientes.",
+    "wrong_three": "Después de un viaje largo, cuando han sido calentados por el uso.",
+    "correct": "Cuando los neumáticos están fríos."
+  },
+  {
+    "id": 60,
+    "statement": "¿Cuál de estos líquidos, en el caso de estar en un nivel bajo, podría causar un accidente?",
+    "image_url": "https://gcdn.emol.cl/autos/files/2015/04/01.jpg",
+    "wrong_one": "El anticongelante.",
+    "wrong_two": "El agua de la batería.",
+    "wrong_three": "El líquido refrigerante.",
+    "correct": "El líquido de freno."
+  },
+  {
+    "id": 61,
+    "statement": "Frente a una situación normal, ¿cuál es la forma más segura de frenar?",
+    "image_url": "https://memolira.com/wp-content/uploads/2018/10/freno-de-mano-palanca-autos-memo-lira.jpg",
+    "wrong_one": "Frenando fuerte, poniendo la palanca de cambio en neutro y tirando el freno de mano justo antes de detenerse.",
+    "wrong_two": "Frenando suavemente, presionando el pedal de embrague y tirando el freno de mano justo antes de detenerse.",
+    "wrong_three": "Poniendo la palanca de cambio en neutro, frenando fuerte y luego soltando el freno justo antes de detenerse.",
+    "correct": "Frenando suavemente, luego un poco más fuerte cuando comienza a detenerse y después aflojando de a poco el freno antes de detenerse."
+  },
+  {
+    "id": 62,
+    "statement": "¿Cuándo usaría usted las luces intermitentes de advertencia de peligro?",
+    "image_url": "https://static.retail.autofact.cl/blog/c_img_740x370.np9l8m5p29p.jpg",
+    "wrong_one": "Cuando se estacione en doble fila respecto a otro vehículo estacionado junto a la cuneta.",
+    "wrong_two": "Cuando estacione junto a una cuneta en la que hay línea amarilla pintada.",
+    "wrong_three": "Cuando sus señalizadores de viraje no estén funcionando.",
+    "correct": "Cuando esté en pana obstruyendo el tránsito."
+  },
+  {
+    "id": 63,
+    "statement": "Las luces de advertencia de peligro deberían ser usadas:",
+    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwpf0LXk23zSbbosFTfBvVlAxzddzMybwKrA&s",
+    "wrong_one": "Cuando estaciona en doble fila respecto a otro vehículo estacionado junto a la cuneta.",
+    "wrong_two": "Para advertir a quienes vienen detrás suyo que usted pretende virar.",
+    "wrong_three": "Para advertir a los demás que usted tiene prisa.",
+    "correct": "Para advertir a quienes vienen detrás de un peligro que hay más adelante."
+  },
+  {
+    "id": 64,
+    "statement": "¿Cuándo usaría usted las luces de advertencia de peligro de su vehículo?",
+    "image_url": "https://dercocenter-api.s3.us-east-1.amazonaws.com/medias/dercocenter/migration/news/pORt.jpg",
+    "wrong_one": "Cuando esté en pana moviéndose lentamente.",
+    "wrong_two": "Cuando esté siendo remolcado.",
+    "wrong_three": "Cuando esté retrocediendo en una calle de poco tránsito.",
+    "correct": "Cuando esté en pana y obstaculizando el tránsito."
+  },
+  {
+    "id": 65,
+    "statement": "Usted está probando la suspensión de su vehículo cuando nota que éste rebota u oscila al cargarlo en un extremo lateral frontal. ¿Qué significa esto?",
+    "image_url": "https://www.lubricantesanmiguel.cl/wp-content/uploads/2023/10/Premium-Photo-_-Auto-car-repair-service-center_-mechanic-examining-car-suspension.jpg",
+    "wrong_one": "Neumáticos gastados.",
+    "wrong_two": "Neumáticos poco inflados.",
+    "wrong_three": "Volante de dirección no centrado.",
+    "correct": "Amortiguadores gastados."
+  },
+  {
+    "id": 66,
+    "statement": "¿Por qué los neumáticos deben mantenerse a la presión indicada por el fabricante?",
+    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPEzUcXU86A6gur26o5vNFbp8IsvUVfbXzlw&s",
+    "wrong_one": "Para no desgastar el motor.",
+    "wrong_two": "Para ayudar a evitar que el automóvil se roncee.",
+    "wrong_three": "Para evitar que el automóvil se incline hacia un lado.",
+    "correct": "Para que el vehículo se mantenga a la altura correcta sobre la vía."
+  },
+  {
+    "id": 67,
+    "statement": "¿A qué se debe un alto consumo de combustible?",
+    "image_url": "https://acnews.blob.core.windows.net/imgnews/large/NAZ_5ebfc37d58764af483d3642ffaa1e392.jpg",
+    "wrong_one": "Fallas en el sistema de dirección.",
+    "wrong_two": "Aceleraciones en curvas.",
+    "wrong_three": "Conducción en marchas altas.",
+    "correct": "Frecuentes frenadas y aceleraciones."
+  },
+  {
+    "id": 68,
+    "statement": "La profundidad de los surcos de los neumáticos de un automóvil no debería ser inferior a ...",
+    "image_url": "https://practicatest.com/static/img/cl/blog/minimo-permitido-surcos-neumatico.jpg",
+    "wrong_one": "5.0 mm",
+    "wrong_two": "4.0 mm",
+    "wrong_three": "1.0 mm",
+    "correct": "1.6 mm"
+  },
+  {
+    "id": 69,
+    "statement": "Uno de sus neumáticos traseros se revienta mientras usted conduce. ¿Cuáles 2 cosas debe hacer usted?",
+    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNc61kawgGeYCxnjgZf0MSaY17qDwTQTgcuQ&s",
+    "wrong_one": "Poner marcha atrás para detener el vehículo.",
+    "wrong_two": "Detener el vehículo frenando lo más fuerte que pueda.",
+    "wrong_three": "Girar el volante hacia el mismo lado hacia el cual se desvía la cola del vehículo.",
+    "correct": "Hacer una señal de detención con el brazo y disminuir la velocidad, Detenerse lentamente al costado de la vía."
+  },
+  {
+    "id": 70,
+    "statement": "¿Cuáles 2 cosas debe usted hacer si se le revienta un neumático delantero?",
+    "image_url": "https://staging.fuso.com.pe/blog/wp-content/uploads/2021/05/baja-presion-neumaticos.jpg",
+    "wrong_one": "Cambiarse de pista y frenar a fondo.",
+    "wrong_two": "Frenar rápida y firmemente.",
+    "wrong_three": "Sostener el volante con una mano advirtiendo con la otra a los demás que usted se detendrá.",
+    "correct": "Frenar suavemente o dejar que el vehículo siga hasta detenerse, Sostener firmemente el volante manteniendo la trayectoria."
+  },
+  {
+    "id": 71,
+    "statement": "¿Qué es lo que usted nunca debería hacer en una bomba de bencina?",
+    "image_url": "https://radioacogida.cl/wp-content/uploads/2024/05/aramco-en-chile-petrobras_447480_2_66435e37b002d.jpg",
+    "wrong_one": "Circular por ella.",
+    "wrong_two": "Comer.",
+    "wrong_three": "Lavar los parabrisas.",
+    "correct": "Fumar."
+  },
+  {
+    "id": 72,
+    "statement": "Desenganchar el motor del vehículo...",
+    "image_url": "https://practicatest.com/static/img/test/CL/e0f7b64dd51a9381c43bc25a3751ee64.jpg",
+    "wrong_one": "Permite un mejor control al conductor.",
+    "wrong_two": "Hace más fácil las maniobras.",
+    "wrong_three": "Aumenta el consumo de combustible.",
+    "correct": "Reduce el control del conductor."
+  },
+  {
+    "id": 73,
+    "statement": "¿Por qué no es bueno desenganchar el motor del vehículo al ir circulando?",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Shift_stick.jpg/1200px-Shift_stick.jpg",
+    "wrong_one": "Porque ello hace que el vehículo resbale.",
+    "wrong_two": "Porque el motor se detendrá.",
+    "wrong_three": "Porque el motor funcionará más rápido.",
+    "correct": "Porque no hay frenado del motor."
+  },
+  {
+    "id": 74,
+    "statement": "¿Cuáles son las 2 principales razones por las cuales no debe desengancharse el motor al ir cuesta abajo?",
+    "image_url": "https://pixnio.com/free-images/2022/10/22/2022-10-22-00-59-11-1350x1013.jpg",
+    "wrong_one": "Porque el consumo de combustible será mayor.",
+    "wrong_two": "Porque se gastan y deterioran más los neumáticos.",
+    "wrong_three": "Porque se daña el motor.",
+    "correct": "Porque tendrá menor control del frenado y dirección, Porque el vehículo agarrará velocidad."
+  },
+  {
+    "id": 75,
+    "statement": "¿Por qué usted no debería conducir presionando el pedal de embrague durante más tiempo que el necesario?",
+    "image_url": "https://motor.elpais.com/wp-content/uploads/2023/08/pedalier-web.jpg",
+    "wrong_one": "Porque aumenta el desgaste de la caja de cambios.",
+    "wrong_two": "Porque aumenta el consumo de combustible.",
+    "wrong_three": "Porque reduce el agarre de los neumáticos.",
+    "correct": "Porque reduce su control sobre el vehículo."
+  },
+  {
+    "id": 76,
+    "statement": "¿Para qué sirven los seguros de niños de los vehículos?",
+    "image_url": "https://siempreauto.com/wp-content/uploads/sites/9/2022/11/shutterstock_388897156.jpg?w=4096",
+    "wrong_one": "Aseguran las hebillas de los cinturones de seguridad.",
+    "wrong_two": "Bloquean las ventanas traseras manteniéndolas cerradas.",
+    "wrong_three": "Impiden que los asientos se reclinen.",
+    "correct": "Impiden que las puertas puedan abrirse desde el interior."
+  },
+  {
+    "id": 77,
+    "statement": "Una baja presión de aire en los neumáticos delanteros ...",
+    "image_url": "https://www.castalianeumaticos.com/wp-content/uploads/2022/02/Portada-itv-para-neumaticos-que-aspectos-debes-cuidar.png",
+    "wrong_one": "Mejora el rendimiento del combustible.",
+    "wrong_two": "Hace sentir la dirección más liviana.",
+    "wrong_three": "Hace sentir la dirección más pesada.",
+    "correct": "Hace que el vehículo tienda a torcer hacia un lado."
+  },
+  {
+    "id": 78,
+    "statement": "En un pavimento mojado, ¿influye el estado de los neumáticos en la distancia de frenado de su vehículo?",
+    "image_url": "https://reporte32mx.com/wp-content/uploads/2022/05/pavimento-mojado.jpg",
+    "wrong_one": "No, la distancia de frenado depende sólo de la velocidad.",
+    "wrong_two": "No, porque una vez que se acciona el freno la distancia de frenado es siempre la misma para cada vehículo.",
+    "wrong_three": "Sí, a mayor desgaste de los neumáticos menor es dicha distancia.",
+    "correct": "Sí, porque el mayor o menor desgaste de los neumáticos, entre otros factores, determinará que dicha distancia sea mayor o menor."
+  },
+  {
+    "id": 79,
+    "statement": "¿Cuáles de las siguientes afirmaciones son verdaderas en relación a las señales de advertencia del vehículo?",
+    "image_url": "https://www.mitsubishi-motors.com.pe/blog/wp-content/uploads/2022/08/luces-advertencia-tablero-automovil-1200x675.jpg",
+    "wrong_one": "Un bajo nivel de combustible activa la luz de advertencia en el panel de instrumentos.",
+    "wrong_two": "El desgaste irregular de los neumáticos causa que se encienda la luz de lubricación del motor.",
+    "wrong_three": "El mal estado de la batería no afecta la iluminación de las advertencias en el tablero.",
+    "correct": "Cuando el motor no está siendo lubricado se enciende una luz en el panel de instrumentos, Una batería mal cargada hace que el vehículo tenga dificultades para arrancar, Casi siempre, el motor se enfría con un líquido refrigerante que circula por canales en el bloque del motor, Una temperatura del motor demasiado alta puede deberse a que se haya roto la correa de la bomba de agua."
+  },
+  {
+    "id": 80,
+    "statement": "Sobre los gases de escape, ¿cuáles de las siguientes afirmaciones son verdaderas?",
+    "image_url": "https://seguros.elcorteingles.es/content/dam/eci-seguros/es/blog/blog-octubre/los-gases-de-escape-en-tu-coche-hablan-de-la-salud-de-tu-motor-como-son.jpg",
+    "wrong_one": "Los gases de escape no son peligrosos para la salud de las personas.",
+    "wrong_two": "Los vapores de la gasolina son inocuos y no presentan riesgo alguno.",
+    "wrong_three": "El sistema de escape solo afecta la eficiencia del motor.",
+    "correct": "Un sistema de escape de gases oxidado puede hacer que penetre monóxido de carbono al interior del vehículo, Los gases de escape contienen monóxido de carbono, que carece de olor y es incoloro."
+  },
+  {
+    "id": 81,
+    "statement": "¿Cuáles 2 de las siguientes afirmaciones son verdaderas?",
+    "image_url": "https://cdn.aarp.net/content/dam/aarpe/es/home/hogar-familia/transporte-comunidades/info-2021/pandemia-impacta-mercado-autos/_jcr_content/root/container_main/container_body_main/container_body1/container_body_cf/container_image/articlecontentfragment/cfimage.coreimg.50.932.jpeg/content/dam/aarp/auto/2021/07/1140-woman-car-shopping-esp.jpg",
+    "wrong_one": "A mayor velocidad, mayor es el consumo del líquido de frenos, El consumo del líquido de frenos depende de la cantidad e intensidad de las frenadas.",
+    "wrong_two": "El líquido de frenos no se consume y si disminuye es porque hay algún defecto, El consumo del líquido de frenos depende de la cantidad e intensidad de las frenadas.",
+    "wrong_three": "Lo mejor es que el pedal de freno se sienta elástico, El consumo del líquido de frenos depende de la cantidad e intensidad de las frenadas.",
+    "correct": "Los frenos antibloqueo tienen la ventaja de impedir que las ruedas queden bloqueadas al frenar fuertemente, El consumo del líquido de frenos depende de la cantidad e intensidad de las frenadas."
+  },
+  {
+    "id": 82,
+    "statement": "Sobre el desgaste de los neumáticos, ¿cuáles de las siguientes afirmaciones son verdaderas?",
+    "image_url": "https://lubrimed.com/wp-content/uploads/2019/11/old-tyre-background.jpg",
+    "wrong_one": "Una profundidad de 1 mm en los surcos es suficiente para asegurar una buena fricción con el pavimento.",
+    "wrong_two": "Independientemente de la ubicación de las ruedas de tracción, los mejores neumáticos deben ir adelante para mayor estabilidad.",
+    "wrong_three": "Una presión excesiva en los neumáticos garantiza un desgaste uniforme en toda la banda de rodamiento.",
+    "correct": "Un desgaste notorio de la zona central de las bandas de rodamiento indica que éstos se han usado con muy poco aire, Un desgaste irregular de los neumáticos puede deberse a problemas de alineamiento o de amortiguación."
+  },
+  {
+    "id": 83,
+    "statement": "En cuanto a la seguridad en el vehículo, ¿cuáles de las siguientes afirmaciones son verdaderas?",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/IIHS_crash_test_dummy_in_Hyundai_Tucson.jpg/640px-IIHS_crash_test_dummy_in_Hyundai_Tucson.jpg",
+    "wrong_one": "Los air-bags (o bolsas de aire) reemplazan ventajosamente al cinturón de seguridad.",
+    "wrong_two": "El cinturón de seguridad es innecesario para los pasajeros del asiento trasero.",
+    "wrong_three": "El uso del cinturón de seguridad es opcional en carreteras urbanas.",
+    "correct": "El cinturón de seguridad disminuye las posibilidades de sufrir lesiones en un accidente, Usar cinturón de seguridad es más necesario cuando se conduce en carreteras."
+  },
+  {
+    "id": 84,
+    "statement": "En relación al uso del cinturón de seguridad, ¿cuáles de las siguientes afirmaciones son verdaderas?",
+    "image_url": "https://imagenes.elpais.com/resizer/v2/3U657GWN7NE67DYZ3K5RMIMQQQ.jpg?auth=f0b7503903a8b80a652ce64efe0cc0347b8ae30086ca1ba4721795b45d86c8b8&width=414",
+    "wrong_one": "No es seguro que un adulto lleve a un niño pequeño incluyéndolo en su cinturón de seguridad.",
+    "wrong_two": "Para quienes viajan en el asiento trasero, el cinturón de seguridad no brinda mayor seguridad.",
+    "wrong_three": "El cinturón de seguridad solo es necesario en viajes largos.",
+    "correct": "El cinturón de seguridad disminuye las posibilidades de resultar lesionado en un accidente, Un cinturón de seguridad bien tensado brinda mayor seguridad que uno menos tensado."
+  },
+  {
+    "id": 85,
+    "statement": "¿Qué elementos de su vehículo debe usted mantener limpios para asegurar un óptimo funcionamiento y seguridad?",
+    "image_url": "https://mejorconsalud.as.com/wp-content/uploads/2018/04/mantener-tu-coche-siempre-limpio.jpg",
+    "wrong_one": "Los neumáticos.",
+    "wrong_two": "El motor y el sistema de frenos.",
+    "wrong_three": "Los asientos y la tapicería.",
+    "correct": "Las luces, Los espejos, Los vidrios."
+  },
+  {
+    "id": 86,
+    "statement": "Suponga que en una ocasión, su distancia de reacción es de 10 metros, su distancia de frenado es de 8 metros y su distancia de detención es de 18 metros. ¿Cuál sería su distancia de detención si aumenta al doble su velocidad?",
+    "image_url": "https://i.pinimg.com/736x/0d/23/16/0d2316f866826645fcc2c2778c281b8d.jpg",
+    "wrong_one": "46 metros.",
+    "wrong_two": "64 metros.",
+    "wrong_three": "78 metros.",
+    "correct": "52 metros."
+  },
+  {
+    "id": 87,
+    "statement": "¿Cuál de las siguientes afirmaciones es falsa cuando usted aumenta su velocidad de 30 km/h a 60 km/h?",
+    "image_url": "https://media.istockphoto.com/id/171577435/es/foto/veloc%C3%ADmetro-con-rojo-veh%C3%ADculo-medidor-de-panel-de-velocidad.jpg?s=612x612&w=0&k=20&c=TWdOplfoo8TwtlFi0Y7O9wse13McCrmJmWnvKl2HgnI=",
+    "wrong_one": "Se cuadruplica la energía cinética.",
+    "wrong_two": "Se duplica la distancia de reacción.",
+    "wrong_three": "Se cuadruplica la distancia de frenado.",
+    "correct": "Se duplica la energía cinética."
+  },
+  {
+    "id": 88,
+    "statement": "El auto azul circula a 70 km/h y el rojo a 90 km/h. ¿Dónde es más probable que sus conductores estimen el punto de encuentro de ambos vehículos?",
+    "image_url": "https://i.postimg.cc/7LHWHgxR/Autitos.jpg",
+    "wrong_one": "El conductor del auto rojo estima que el encuentro será en el punto 2.",
+    "wrong_two": "Ambos conductores coinciden en que será en el punto 2.",
+    "wrong_three": "El conductor del auto azul estima que el encuentro será en el punto 3.",
+    "correct": "El conductor del auto rojo estima que el encuentro será en el punto 3, y el conductor del auto azul estima que será en el punto 1."
+  },
+  {
+    "id": 89,
+    "statement": "¿Qué distancia de detención tiene un tren que circula a alrededor de 100 km/h?",
+    "image_url": "https://us.123rf.com/450wm/electricegg/electricegg1801/electricegg180100348/94168560-great-northern-railway-n2-steam-locomotive-keighley-and-worth-valley-railway-12-de-febrero-de.jpg?ver=6",
+    "wrong_one": "Aproximadamente 100 metros.",
+    "wrong_two": "Aproximadamente 200 metros.",
+    "wrong_three": "Más de 2000 metros.",
+    "correct": "Entre 800 y 1000 metros."
+  },
+  {
+    "id": 90,
+    "statement": "¿Qué es lo más importante para evitar chocar al vehículo que va adelante?",
+    "image_url": "https://practicatest.com/static/img/test/CL/01b712bb374d1431af066fbe9f243608.jpg",
+    "wrong_one": "Asegurarse de que sus frenos sean eficientes.",
+    "wrong_two": "Conducir a una velocidad constante.",
+    "wrong_three": "Tener neumáticos en muy buen estado.",
+    "correct": "Mantener una adecuada distancia de separación entre vehículos."
+  },
+  {
+    "id": 91,
+    "statement": "Usted va circulando a 50 km/h por un camino plano y de asfalto. ¿Cuánto se tardará en detenerse aproximadamente?",
+    "image_url": "https://media.istockphoto.com/id/873164892/es/foto/camino-plano-de-asfalto-de-la-bobina-a-lo-largo-de-las-laderas-de-las-monta%C3%B1as-altas.jpg?s=170667a&w=0&k=20&c=1BzpekzhH-xcaC6LpNMpnWfxoSfaJ8_WwPhnGRVkrQU=",
+    "wrong_one": "Unos 50 metros.",
+    "wrong_two": "Unos 10 metros.",
+    "wrong_three": "Unos 30 metros.",
+    "correct": "Unos 15 metros."
+  },
+  {
+    "id": 92,
+    "statement": "La distancia de detención total es igual a la suma de la distancia de reacción y la de frenado. Si viaja a 90 km/h en asfalto seco, ¿cuál es la mínima distancia de detención total?",
+    "image_url": "https://imagenes.elpais.com/resizer/v2/3XLTWDI6QNOQBDZEOX4ZQQ67VI.jpg?auth=fb79e894ad6c3437584a9762d196fa379a9a986810dab87d83fbac72291a080e&width=414",
+    "wrong_one": "Unos 50 metros.",
+    "wrong_two": "Unos 30 metros.",
+    "wrong_three": "Unos 120 metros.",
+    "correct": "Unos 70 metros."
+  },
+  {
+    "id": 93,
+    "statement": "Usted conduce un vehículo con frenos y neumáticos en buenas condiciones en calzada seca. Si viaja a 70 km/h, ¿cuál es la distancia aproximada de detención total?",
+    "image_url": "https://imagenes.elpais.com/resizer/v2/3XLTWDI6QNOQBDZEOX4ZQQ67VI.jpg?auth=fb79e894ad6c3437584a9762d196fa379a9a986810dab87d83fbac72291a080e&width=414",
+    "wrong_one": "Unos 15 metros.",
+    "wrong_two": "Unos 80 metros.",
+    "wrong_three": "Unos 25 metros.",
+    "correct": "Unos 45 metros."
+  },
+  {
+    "id": 94,
+    "statement": "Usted desea estacionar en bajada en una calle con pendiente pronunciada. ¿Qué debería hacer?",
+    "image_url": "https://cdn.club-magazin.autodoc.de/uploads/sites/11/2022/05/aparcar-en-cuesta.jpg",
+    "wrong_one": "Estacionar detrás de otro auto.",
+    "wrong_two": "Estacionar con dos ruedas sobre la acera.",
+    "wrong_three": "Dejar puesto el freno de mano.",
+    "correct": "Dejar el volante girado hacia la acera."
+  },
+  {
+    "id": 95,
+    "statement": "Usted está descendiendo una pendiente muy larga. ¿Qué debería hacer para ayudar a controlar la velocidad de su vehículo?",
+    "image_url": "https://images.freeimages.com/images/large-previews/c91/sloping-street-in-valparaiso-1210380.jpg?h=350",
+    "wrong_one": "Tomar el manubrio firmemente.",
+    "wrong_two": "Seleccionar neutro.",
+    "wrong_three": "Presionar el pedal de embrague.",
+    "correct": "Seleccionar una marcha baja."
+  },
+  {
+    "id": 96,
+    "statement": "Usted está virando hacia la derecha en un camino resbaladizo y las ruedas traseras resbalan hacia la izquierda. ¿Qué debe hacer?",
+    "image_url": "https://i.ytimg.com/vi/jgYL9RJ3qpE/maxresdefault.jpg",
+    "wrong_one": "Frenar firmemente y no girar el manubrio.",
+    "wrong_two": "Usar el embrague y frenar firmemente.",
+    "wrong_three": "Girar hacia la derecha.",
+    "correct": "Guiar cuidadosamente hacia la izquierda."
+  },
+  {
+    "id": 97,
+    "statement": "Usted está próximo a descender por una pendiente muy pronunciada. ¿Qué debería hacer para controlar la velocidad?",
+    "image_url": "https://previews.123rf.com/images/taaee/taaee1408/taaee140800194/30932452-colina-pendiente-pronunciada-delante-se%C3%B1al-de-advertencia-camino.jpg",
+    "wrong_one": "Seleccionar un cambio alto y usar los frenos cuidadosamente.",
+    "wrong_two": "Seleccionar un cambio alto y usar los frenos firmemente.",
+    "wrong_three": "Seleccionar un cambio bajo y evitar usar los frenos.",
+    "correct": "Seleccionar un cambio bajo y usar los frenos cuidadosamente."
+  },
+  {
+    "id": 98,
+    "statement": "La distancia de frenado es la que recorre un vehículo desde que se presiona el freno hasta que se detiene. Si circula a 90 km/h, ¿cuál es aproximadamente su distancia de frenado?",
+    "image_url": "https://cdn.unotv.com/images/2023/02/movilidad-que-hacer-en-falla-de-frenos-del-auto-al-conducir-084520.jpg",
+    "wrong_one": "Unos 70 metros.",
+    "wrong_two": "Unos 20 metros.",
+    "wrong_three": "Unos 15 metros.",
+    "correct": "Unos 45 metros."
+  },
+  {
+    "id": 99,
+    "statement": "¿Qué debería hacer usted para corregir un coletazo de las ruedas traseras?",
+    "image_url": "https://practicatest.com/static/img/test/CL/3e9eac006cc42d55ee9bb611526ce1e8.jpg",
+    "wrong_one": "No girar el volante para nada.",
+    "wrong_two": "Girar el volante hacia el lado opuesto al coletazo.",
+    "wrong_three": "Aplicar su freno de mano.",
+    "correct": "Girar el volante hacia el lado que se desplaza la cola del vehículo."
+  },
+  {
+    "id": 100,
+    "statement": "La distancia de frenado es la distancia que recorre un vehículo desde que se presiona el freno hasta que se detiene. ¿Cuáles de las siguientes variables influyen en la distancia de frenado?",
+    "image_url": "https://www.lavanguardia.com/files/image_449_220/files/fp/uploads/2023/09/13/65019ff376152.r_d.1200-800-1871.jpeg",
+    "wrong_one": "El alumbrado público.",
+    "wrong_two": "La hora del día.",
+    "wrong_three": "La inclinación de la calzada.",
+    "correct": "La velocidad, El estado de los frenos y neumáticos, Las condiciones climáticas."
   }
 ]

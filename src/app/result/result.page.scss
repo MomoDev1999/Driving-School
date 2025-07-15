@@ -1,17 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
 
 .result-page {
   --background: #f7f7f7;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 
   .result-wrapper {
-    margin-top: 15px;
     display: flex;
     flex-direction: column;
     min-height: 100%;
     justify-content: flex-start;
     position: relative;
-    padding-bottom: 60px; // espacio para la firma
+    padding-bottom: 60px;
   }
 
   .result-summary {
@@ -19,7 +18,7 @@
     padding: 25px;
     border-radius: 16px;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
     animation: fadeIn 0.5s ease-in-out;
 
@@ -72,6 +71,7 @@
     .correct-answer {
       font-size: 14px;
       margin-bottom: 4px;
+      color: #444;
 
       span {
         font-weight: 500;
@@ -112,37 +112,44 @@
   }
 }
 
-@media (prefers-color-scheme: dark) {
-  .result-page {
-    --background: #1e1f21;
+.dark .result-page {
+  --background: #1e1f21;
 
-    .result-summary,
-    .error-card {
-      background: #2a2b2e;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  .result-summary,
+  .error-card {
+    background: #2a2b2e;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  }
+
+  .result-summary h2,
+  .section-title,
+  .error-card .question {
+    color: #f1f1f1;
+  }
+
+  .score {
+    color: #ff8787;
+  }
+
+  .percentage {
+    color: #cccccc;
+  }
+
+  .your-answer,
+  .correct-answer {
+    color: #dddddd;
+
+    span {
+      color: #ff8787;
     }
+  }
 
-    .result-summary h2,
-    .section-title,
-    .error-card .question {
-      color: #f1f1f1;
-    }
+  .home-btn {
+    --background: #ff6b6b;
+    --color: #fff;
+  }
 
-    .percentage {
-      color: #cccccc;
-    }
-
-    .your-answer,
-    .correct-answer {
-      color: #bbbbbb;
-
-      span {
-        color: #ff8787;
-      }
-    }
-
-    .signature {
-      color: #aaa;
-    }
+  .signature {
+    color: #aaa;
   }
 }

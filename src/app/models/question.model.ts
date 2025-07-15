@@ -1,9 +1,10 @@
+// src/app/models/question.model.ts
 export interface Question {
-    id: number;
-    statement: string;
-    image_url?: string;
-    wrong_one: string;
-    wrong_two: string;
-    wrong_three: string;
-    correct: string;
-  }
+  id: number;
+  statement: string;
+  imageUrl?: string;
+  wrongOne: string;
+  wrongTwo: string;
+  wrongThree: string;
+  correct: string;
+}

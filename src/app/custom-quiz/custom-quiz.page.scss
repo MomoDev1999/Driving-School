@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+.custom-quiz-page {
+  --background: #f7f7f7;
+  font-family: "Poppins", sans-serif;
+
+  .quiz-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 24px;
+    text-align: center;
+  }
+
+  .logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+
+    .logo {
+      width: 100%;
+      max-width: 280px;
+      animation: fadeInUp 1s ease-in-out;
+    }
+
+    .title {
+      font-size: 24px;
+      font-weight: 600;
+      margin-bottom: 5px;
+      animation: fadeInUp 1.2s ease-in-out;
+      color: #2a2b2e;
+    }
+
+    .slogan {
+      font-size: 16px;
+      font-weight: 400;
+      color: #555;
+      max-width: 320px;
+      animation: fadeInUp 1.3s ease-in-out;
+      margin-bottom: 16px;
+    }
+  }
+
+  .category-list {
+    width: 100%;
+    max-width: 280px;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+    .category-card {
+      display: flex;
+      align-items: center;
+      padding: 12px 16px;
+      border-radius: 12px;
+      background-color: #fff;
+      box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+      transition: transform 0.2s ease;
+      cursor: pointer;
+
+      &:hover {
+        transform: scale(1.015);
+      }
+
+      ion-checkbox {
+        margin-right: 12px;
+        --size: 20px;
+        --checkbox-background-checked: #f38d8d;
+        --checkmark-color: #fff;
+      }
+
+      .category-label {
+        font-size: 16px;
+        font-weight: 500;
+        color: #2a2b2e;
+        text-align: left;
+      }
+    }
+  }
+
+  .custom-input {
+    width: 100%;
+    max-width: 280px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+    padding: 10px 14px 4px;
+    margin-bottom: 20px;
+    text-align: left;
+
+    label {
+      display: block;
+      font-size: 14px;
+      font-weight: 600;
+      color: #555;
+      margin-bottom: 6px;
+    }
+
+    ion-input {
+      --padding-start: 0px;
+      font-size: 16px;
+      --color: #2a2b2e;
+      color: #2a2b2e;
+
+      &::part(native-input)::placeholder {
+        color: #999;
+      }
+    }
+  }
+
+  .start-btn {
+    --background: #f38d8d;
+    --color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 280px;
+    margin-top: 8px;
+    animation: fadeInUp 1.4s ease-in-out;
+  }
+
+  .loading-text {
+    font-size: 15px;
+    color: #666;
+    margin: 40px 0;
+  }
+
+  .signature {
+    margin-top: 40px;
+    font-size: 14px;
+    color: #888;
+    font-weight: 500;
+    animation: fadeInUp 1.6s ease-in-out;
+  }
+}
+
+/* 🌙 MODO OSCURO */
+.dark .custom-quiz-page {
+  --background: #1e1f21;
+
+  .title,
+  .slogan {
+    color: #f5f5f5;
+  }
+
+  .category-card {
+    background: #2a2b2e;
+  }
+
+  .category-label {
+    color: #ffffff !important;
+  }
+
+  .custom-input {
+    background: #2a2b2e;
+
+    label {
+      color: #ddd;
+    }
+
+    ion-input {
+      --color: #fff;
+      color: #fff;
+
+      &::part(native-input)::placeholder {
+        color: #aaa;
+      }
+    }
+  }
+
+  .loading-text {
+    color: #aaa;
+  }
+
+  .signature {
+    color: #aaa;
+  }
+
+  .start-btn {
+    --background: #ff6b6b;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

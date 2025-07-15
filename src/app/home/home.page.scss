@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
 
 .home {
   --background: #f7f7f7;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 
   .home-wrapper {
     display: flex;
@@ -17,42 +17,60 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 60px;
+    margin-top: 10px;
 
     .logo {
       width: 100%;
-      margin-bottom: 20px;
+      max-width: 280px;
       animation: fadeInUp 1s ease-in-out;
     }
 
     .title {
       font-size: 24px;
       font-weight: 600;
-
-      margin-bottom: 30px;
+      margin-bottom: 5px;
       animation: fadeInUp 1.2s ease-in-out;
     }
+  }
 
-    .start-btn {
-      --background: #ff6b6b;
-      --color: #ffffff;
-      font-weight: bold;
-      font-size: 16px;
-      border-radius: 12px;
-      width: 100%;
-      max-width: 280px;
-      animation: fadeInUp 1.4s ease-in-out;
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
+  .slogan {
+    font-size: 16px;
+    font-weight: 400;
+    color: #555;
+    max-width: 320px;
+    text-align: center;
+    margin-bottom: 5px;
+    animation: fadeInUp 1.3s ease-in-out;
+  }
 
-      &:hover {
-        transform: scale(1.02);
-        box-shadow: 0 8px 18px rgba(255, 107, 107, 0.3);
-      }
+  .btn-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+    align-items: center;
+  }
 
-      &:active {
-        transform: scale(0.98);
-        box-shadow: 0 4px 12px rgba(255, 107, 107, 0.3);
-      }
+  ion-button.start-btn {
+    --background: #f38d8d;
+    --color: #ffffff;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 280px;
+    transition: all 0.3s ease;
+    animation: fadeInUp 1.4s ease-in-out;
+
+    &:hover {
+      --background: #ff6b6b !important;
+      transform: scale(1.03);
+      box-shadow: 0 6px 16px rgba(255, 107, 107, 0.35);
+    }
+
+    &:active {
+      transform: scale(0.98);
     }
   }
 
@@ -65,6 +83,36 @@
   }
 }
 
+.dark .home {
+  --background: #1e1f21;
+
+  .title {
+    color: #f5f5f5;
+  }
+
+  .slogan {
+    color: #ddd;
+  }
+
+  ion-button.start-btn {
+    --background: #ff6b6b;
+    --color: #ffffff;
+
+    &:hover {
+      --background: #ff8787;
+      box-shadow: 0 6px 16px rgba(255, 107, 107, 0.4);
+    }
+
+    &:active {
+      transform: scale(0.97);
+    }
+  }
+
+  .signature {
+    color: #aaa;
+  }
+}
+
 @keyframes fadeInUp {
   from {
     opacity: 0;
@@ -73,28 +121,5 @@
   to {
     opacity: 1;
     transform: translateY(0);
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  .home {
-    --background: #1e1f21;
-
-    .title {
-      color: #f5f5f5;
-    }
-
-    .start-btn {
-      --background: #ff6b6b;
-      --color: #ffffff;
-
-      &:hover {
-        box-shadow: 0 8px 18px rgba(255, 107, 107, 0.4);
-      }
-    }
-
-    .signature {
-      color: #aaa;
-    }
   }
 }

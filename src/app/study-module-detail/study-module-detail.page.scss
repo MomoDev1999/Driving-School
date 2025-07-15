@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+.custom-quiz-page {
+  --background: #f7f7f7;
+  font-family: "Poppins", sans-serif;
+}
+
+.custom-quiz-page .quiz-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 24px;
+  text-align: left;
+}
+
+.custom-quiz-page .title {
+  font-size: 22px;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-bottom: 16px;
+  color: #2a2b2e;
+  text-align: center;
+  animation: fadeInUp 1s ease-in-out;
+}
+
+.custom-quiz-page .slogan {
+  font-size: 15px;
+  font-weight: 400;
+  color: #555;
+  line-height: 1.6;
+  white-space: pre-line;
+  animation: fadeInUp 1.2s ease-in-out;
+}
+
+.custom-quiz-page .start-btn {
+  --background: #f38d8d;
+  --color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 280px;
+  margin-top: 24px;
+  animation: fadeInUp 1.4s ease-in-out;
+  transition: all 0.3s ease;
+}
+
+.custom-quiz-page .start-btn:hover {
+  --background: #ff6b6b;
+  transform: scale(1.03);
+  box-shadow: 0 6px 16px rgba(255, 107, 107, 0.35);
+}
+
+.custom-quiz-page .start-btn:active {
+  transform: scale(0.98);
+}
+
+/* MODO OSCURO */
+
+.dark .custom-quiz-page {
+  --background: #1e1f21;
+}
+
+.dark .custom-quiz-page .title {
+  color: #f5f5f5;
+}
+
+.dark .custom-quiz-page .slogan {
+  color: #ccc;
+}
+
+.dark .custom-quiz-page .start-btn {
+  --background: #ff6b6b;
+  --color: #fff;
+}
+
+.dark .custom-quiz-page .start-btn:hover {
+  --background: #ff8787;
+  box-shadow: 0 6px 16px rgba(255, 107, 107, 0.4);
+}
+
+.dark .custom-quiz-page .start-btn:active {
+  transform: scale(0.97);
+}
+
+/* Animación */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

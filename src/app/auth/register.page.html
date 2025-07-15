@@ -1,0 +1,58 @@
+<ion-content class="auth-page ion-padding">
+  <div class="auth-wrapper">
+    <img
+      src="assets/splash-removebg-preview.png"
+      alt="Logo Driving School"
+      class="logo"
+    />
+    <h2 class="title">Crear cuenta</h2>
+    <p class="subtitle">Regístrate para comenzar a practicar</p>
+
+    <ion-item class="auth-input">
+      <ion-label position="floating">Nombre completo</ion-label>
+      <ion-input [(ngModel)]="name"></ion-input>
+    </ion-item>
+
+    <ion-item class="auth-input">
+      <ion-label position="floating">Usuario</ion-label>
+      <ion-input [(ngModel)]="username"></ion-input>
+    </ion-item>
+
+    <ion-item class="auth-input">
+      <ion-label position="floating">Correo electrónico</ion-label>
+      <ion-input [(ngModel)]="email" type="email"></ion-input>
+    </ion-item>
+
+    <ion-item class="auth-input">
+      <ion-label position="stacked">Fecha de nacimiento</ion-label>
+      <ion-input [(ngModel)]="birthday" type="date"></ion-input>
+    </ion-item>
+
+    <ion-item class="auth-input">
+      <ion-label position="floating">Contraseña</ion-label>
+      <ion-input [(ngModel)]="password" type="password"></ion-input>
+    </ion-item>
+
+    <ion-item class="auth-input">
+      <ion-label position="floating">Confirmar contraseña</ion-label>
+      <ion-input [(ngModel)]="confirmPassword" type="password"></ion-input>
+    </ion-item>
+
+    <p class="error" *ngIf="errorMessage">{{ errorMessage }}</p>
+
+    <ion-button
+      expand="block"
+      class="auth-btn"
+      (click)="register()"
+      [disabled]="loading"
+    >
+      {{ loading ? 'Registrando...' : 'Registrarse' }}
+    </ion-button>
+
+    <ion-button expand="block" fill="clear" routerLink="/login" class="alt-btn">
+      ¿Ya tienes cuenta? Inicia sesión
+    </ion-button>
+
+    <div class="signature">MomoDev 🐌✨</div>
+  </div>
+</ion-content>

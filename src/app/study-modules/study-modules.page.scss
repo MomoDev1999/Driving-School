@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+.custom-quiz-page {
+  --background: #f7f7f7;
+  font-family: "Poppins", sans-serif;
+}
+
+.custom-quiz-page .quiz-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 24px;
+  text-align: center;
+}
+
+.custom-quiz-page .logo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.custom-quiz-page .logo {
+  width: 100%;
+  max-width: 280px;
+  animation: fadeInUp 1s ease-in-out;
+}
+
+.custom-quiz-page .title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #2a2b2e;
+  animation: fadeInUp 1.2s ease-in-out;
+}
+
+.custom-quiz-page .slogan {
+  font-size: 16px;
+  font-weight: 400;
+  color: #555;
+  max-width: 320px;
+  animation: fadeInUp 1.3s ease-in-out;
+  margin-bottom: 16px;
+}
+
+.custom-quiz-page .category-list {
+  width: 100%;
+  max-width: 280px;
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.custom-quiz-page .category-card {
+  display: flex;
+  align-items: center;
+  padding: 12px 16px;
+  border-radius: 12px;
+  background-color: #fff;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease;
+  cursor: pointer;
+}
+
+.custom-quiz-page .category-card:hover {
+  transform: scale(1.015);
+}
+
+.custom-quiz-page .category-card ion-checkbox {
+  margin-right: 12px;
+  --size: 20px;
+  --checkbox-background-checked: #f38d8d;
+  --checkmark-color: #fff;
+}
+
+.custom-quiz-page .category-label {
+  font-size: 16px;
+  font-weight: 500;
+  color: #2a2b2e;
+  text-align: left;
+}
+
+.custom-quiz-page .start-btn {
+  --background: #f38d8d;
+  --color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 280px;
+  margin-top: 8px;
+  animation: fadeInUp 1.4s ease-in-out;
+  transition: all 0.3s ease;
+}
+
+.custom-quiz-page .start-btn:hover {
+  --background: #ff6b6b;
+  transform: scale(1.03);
+  box-shadow: 0 6px 16px rgba(255, 107, 107, 0.35);
+}
+
+.custom-quiz-page .start-btn:active {
+  transform: scale(0.98);
+}
+
+/* MODO OSCURO */
+
+.dark .custom-quiz-page {
+  --background: #1e1f21;
+}
+
+.dark .custom-quiz-page .title {
+  color: #f5f5f5;
+}
+
+.dark .custom-quiz-page .slogan {
+  color: #ccc;
+}
+
+.dark .custom-quiz-page .category-card {
+  background: #2a2b2e;
+}
+
+.dark .custom-quiz-page .category-card .category-label {
+  color: #f5f5f5;
+}
+
+.dark .custom-quiz-page .category-card ion-checkbox {
+  --background: #3a3b3e;
+  --border-color: #666;
+  --checkbox-background-checked: #ff6b6b;
+}
+
+.dark .custom-quiz-page .start-btn {
+  --background: #ff6b6b;
+  --color: #fff;
+}
+
+.dark .custom-quiz-page .start-btn:hover {
+  --background: #ff8787;
+  box-shadow: 0 6px 16px rgba(255, 107, 107, 0.4);
+}
+
+.dark .custom-quiz-page .start-btn:active {
+  transform: scale(0.97);
+}
+
+/* Animación */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

@@ -1,9 +1,13 @@
 <ion-content class="quiz-page ion-padding">
-  <div class="question-box" *ngIf="questions.length">
+  <br />
+  <div
+    class="question-box"
+    *ngIf="questions.length && current < questions.length && questions[current]"
+  >
     <div class="progress-container">
       <div
         class="progress"
-        [style.width.%]="((current + 1) / questions.length) * 100"
+        [style.width.%]="(current / questions.length) * 100"
       ></div>
     </div>
 
@@ -12,8 +16,8 @@
     </h2>
 
     <img
-      *ngIf="questions[current].image_url"
-      [src]="questions[current].image_url"
+      *ngIf="questions[current].imageUrl"
+      [src]="questions[current].imageUrl"
       alt="Imagen de la pregunta"
       class="question-img"
     />
@@ -34,4 +38,13 @@
 
     <div class="signature">MomoDev 🐌✨</div>
   </div>
+
+  <ion-alert
+    [isOpen]="showCancelAlert"
+    header="Confirmación"
+    message="¿Estás seguro que deseas cancelar el quiz?"
+    [buttons]="cancelButtons"
+  ></ion-alert>
+
+  <app-loading-overlay [visible]="isLoading"></app-loading-overlay>
 </ion-content>
