@@ -4,6 +4,7 @@ import { Router } from '@angular/router';
 import { IonContent, IonButton } from '@ionic/angular/standalone';
 import { Question } from '../models/question.model';
 import { LoadingOverlayComponent } from '../loading-overlay/loading-overlay.component';
+import { TestResultService } from '../services/test-result.service';
 
 @Component({
   selector: 'app-result',
@@ -20,26 +21,47 @@ export class ResultPage implements OnInit, OnDestroy {
   incorrectAnswers: { question: Question; selected: string }[] = [];
   isLoading = true;
 
-  constructor(private router: Router) {}
+  constructor(
+    private router: Router,
+    private testResultService: TestResultService
+  ) {}
 
   ngOnInit() {
     const nav = this.router.getCurrentNavigation();
     if (nav?.extras.state && nav.extras.state['answers']) {
       this.answers = nav.extras.state['answers'];
+
       this.correct = this.answers.filter(
         (a) => a.selected === a.question.correct
       ).length;
+
       this.percentage = Math.round((this.correct / this.answers.length) * 100);
+
       this.incorrectAnswers = this.answers.filter(
         (a) => a.selected !== a.question.correct
       );
+
+      const mode =
+        this.answers.length === 10
+          ? '10'
+          : this.answers.length === 30
+          ? '30'
+          : 'personalizado';
+
+      this.testResultService
+        .saveResult({
+          mode,
+          totalQuestions: this.answers.length,
+          correctAnswers: this.correct,
+          wrongAnswers: this.answers.length - this.correct,
+        })
+        .then(() => console.log('Resultado guardado'))
+        .catch((err) => console.error('Error al guardar resultado:', err));
     }
 
-    // Bloquea el botón de retroceso del teléfono en esta página
     history.pushState(null, '', location.href);
     window.addEventListener('popstate', this.blockBackNavigation);
 
-    // Oculta el overlay tras la transición desde Quiz
     setTimeout(() => {
       this.isLoading = false;
     }, 300);
@@ -53,7 +75,6 @@ export class ResultPage implements OnInit, OnDestroy {
     history.pushState(null, '', location.href);
   };
 
-  // Al volver a Home desde Result, se navega directamente sin mostrar overlay
   goHome() {
     this.router.navigateByUrl('/home');
   }

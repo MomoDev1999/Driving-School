@@ -65,4 +65,8 @@ export class HomePage implements OnInit {
   goToStudyModules() {
     this.router.navigate(['/study-modules']);
   }
+
+  goToMyProgress() {
+    this.router.navigate(['/progreso']);
+  }
 }

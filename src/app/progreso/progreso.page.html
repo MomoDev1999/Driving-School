@@ -1,0 +1,47 @@
+<ion-content class="custom-quiz-page ion-padding">
+  <div class="quiz-wrapper">
+    <header class="progress-header">
+      <img
+        src="assets/my-progress.png"
+        alt="Logo Driving School"
+        class="logo"
+      />
+      <h2 class="title">Mi Progreso</h2>
+      <p class="subtitle">Visualiza tus resultados y tu evolución</p>
+    </header>
+
+    <section *ngIf="results.length > 0; else noResults" class="results-list">
+      <div *ngFor="let r of results" class="result-card">
+        <div class="result-top">
+          <span class="mode">{{ r.mode }} preguntas</span>
+          <span class="date">{{ r.createdAt | date: 'short' }}</span>
+        </div>
+        <div class="result-bottom">
+          <div class="score">
+            <strong>{{ r.correctAnswers }}/{{ r.totalQuestions }}</strong>
+            <span class="percentage"
+              >{{ (r.correctAnswers / r.totalQuestions * 100) | number: '1.0-0'
+              }}%</span
+            >
+          </div>
+          <div class="bar-container">
+            <div
+              class="bar-fill"
+              [style.width.%]="(r.correctAnswers / r.totalQuestions) * 100"
+            ></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <ng-template #noResults>
+      <p class="no-results">Aún no tienes resultados registrados.</p>
+    </ng-template>
+
+    <ion-button expand="full" class="back-btn" (click)="goHome()"
+      >Volver al inicio</ion-button
+    >
+
+    <footer class="signature">MomoDev 🐌✨</footer>
+  </div>
+</ion-content>

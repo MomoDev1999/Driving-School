@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+.custom-quiz-page {
+  --background: #f7f7f7;
+  font-family: "Poppins", sans-serif;
+
+  .quiz-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 24px;
+    text-align: center;
+  }
+
+  .progress-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+
+    .progress-icon {
+      width: 90px;
+      margin-bottom: 12px;
+      animation: fadeInUp 1s ease-in-out;
+    }
+
+    .title {
+      font-size: 24px;
+      font-weight: 600;
+      margin: 0;
+      color: #2a2b2e;
+      animation: fadeInUp 1.2s ease-in-out;
+    }
+
+    .subtitle {
+      font-size: 15px;
+      color: #666;
+      margin-bottom: 20px;
+      animation: fadeInUp 1.3s ease-in-out;
+    }
+  }
+
+  .results-list {
+    width: 100%;
+    max-width: 320px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 24px;
+
+    .result-card {
+      background-color: #fff;
+      border-radius: 14px;
+      padding: 16px;
+      box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+      animation: fadeInUp 0.3s ease-in-out;
+      transition: transform 0.2s ease;
+
+      &:hover {
+        transform: scale(1.015);
+      }
+
+      .result-top {
+        display: flex;
+        justify-content: space-between;
+        font-size: 14px;
+        color: #999;
+        margin-bottom: 8px;
+
+        .mode {
+          font-weight: 500;
+          color: #f38d8d;
+        }
+
+        .date {
+          font-style: italic;
+        }
+      }
+
+      .result-bottom {
+        .score {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          font-size: 16px;
+          font-weight: bold;
+          color: #2a2b2e;
+          margin-bottom: 6px;
+
+          .percentage {
+            font-size: 14px;
+            color: #4caf50;
+          }
+        }
+
+        .bar-container {
+          background-color: #e0e0e0;
+          border-radius: 10px;
+          overflow: hidden;
+          height: 8px;
+
+          .bar-fill {
+            height: 100%;
+            background-color: #4caf50;
+            transition: width 0.4s ease;
+          }
+        }
+      }
+    }
+  }
+
+  .no-results {
+    font-size: 15px;
+    color: #999;
+    margin: 40px 0;
+  }
+
+  .back-btn {
+    --background: #f38d8d;
+    --color: #ffffff;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 280px;
+    margin-top: 8px;
+    animation: fadeInUp 1.4s ease-in-out;
+  }
+
+  .signature {
+    margin-top: 40px;
+    font-size: 14px;
+    color: #888;
+    font-weight: 500;
+    animation: fadeInUp 1.6s ease-in-out;
+  }
+}
+
+// 🌙 MODO OSCURO
+.dark .custom-quiz-page {
+  --background: #1e1f21;
+
+  .title,
+  .subtitle {
+    color: #f5f5f5;
+  }
+
+  .result-card {
+    background: #2a2b2e;
+
+    .result-top {
+      color: #aaa;
+
+      .mode {
+        color: #ff8787;
+      }
+    }
+
+    .score {
+      color: #f5f5f5;
+
+      .percentage {
+        color: #8bc34a;
+      }
+    }
+
+    .bar-container {
+      background-color: #444;
+
+      .bar-fill {
+        background-color: #8bc34a;
+      }
+    }
+  }
+
+  .no-results,
+  .signature {
+    color: #aaa;
+  }
+
+  .back-btn {
+    --background: #ff6b6b;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

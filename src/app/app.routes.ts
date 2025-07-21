@@ -60,5 +60,9 @@ export const routes: Routes = [
     path: 'study-module-detail',
     loadComponent: () => import('./study-module-detail/study-module-detail.page').then( m => m.StudyModuleDetailPage)
   },
+  {
+    path: 'progreso',
+    loadComponent: () => import('./progreso/progreso.page').then( m => m.ProgresoPage)
+  },
 
 ];

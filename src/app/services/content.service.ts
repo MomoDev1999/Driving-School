@@ -1,14 +1,13 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
-
 import { environment } from 'src/environments/environment';
 
 export interface Content {
   id: number;
   title: string;
   paragraph: string;
-  read?: boolean;
+  read: boolean;
 }
 
 @Injectable({
@@ -19,11 +18,11 @@ export class ContentService {
 
   constructor(private http: HttpClient) {}
 
-  getAllContent(): Observable<Content[]> {
-    return this.http.get<Content[]>(`${this.apiUrl}`);
+  getAllContentWithStatus(): Observable<Content[]> {
+    return this.http.get<Content[]>(`${this.apiUrl}/with-status`);
   }
 
   markAsRead(contentId: number): Observable<any> {
-    return this.http.post(`${this.apiUrl}/${contentId}/read`, {}); // <-- nuevo endpoint correcto
+    return this.http.post(`${this.apiUrl}/${contentId}/read`, {});
   }
 }

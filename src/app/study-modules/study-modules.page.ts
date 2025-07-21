@@ -8,7 +8,7 @@ import { ContentService, Content } from 'src/app/services/content.service';
 @Component({
   selector: 'app-study-modules',
   standalone: true,
-  imports: [CommonModule, IonicModule], // IMPORTANTE
+  imports: [CommonModule, IonicModule],
   encapsulation: ViewEncapsulation.None,
   templateUrl: './study-modules.page.html',
   styleUrls: ['./study-modules.page.scss'],
@@ -19,7 +19,7 @@ export class StudyModulesPage implements OnInit {
   constructor(private contentService: ContentService, private router: Router) {}
 
   ngOnInit() {
-    this.contentService.getAllContent().subscribe((res) => {
+    this.contentService.getAllContentWithStatus().subscribe((res) => {
       this.modules = res;
     });
   }
